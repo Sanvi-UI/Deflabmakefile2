@@ -49,7 +49,7 @@ export function ProfileModal({ member, onClose }: ProfileModalProps) {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               ) : (
                 <div className="w-full h-full flex items-center justify-center">
@@ -91,7 +91,7 @@ export function ProfileModal({ member, onClose }: ProfileModalProps) {
 
             <div className="h-px bg-[#7DF9FF] mb-5" />
 
-            <p className="text-[#333] mb-6 leading-relaxed">{member.bio}</p>
+            <p className="text-[#333] mb-6 leading-relaxed whitespace-pre-line">{member.bio}</p>
 
             <div>
               <h4 className="text-sm uppercase tracking-wider text-[#003153] mb-3">

@@ -210,7 +210,7 @@ export function Contact() {
         <div className="mt-16">
           <div className="aspect-video rounded-2xl overflow-hidden border border-gray-200 shadow-lg">
             <iframe
-              title="DeF Lab – IIT Bombay location"
+              title="DeF Lab, IIT Bombay location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5443496540224!2d72.91375497594!3d19.133914150090217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7f5bbccbb3d%3A0xf1d1d5e9b05f52b3!2sIDC%20School%20of%20Design%2C%20IIT%20Bombay!5e0!3m2!1sen!2sin!4v1700000000000"
               width="100%"
               height="100%"

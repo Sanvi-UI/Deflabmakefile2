@@ -11,6 +11,7 @@ export interface TeamMember {
   email: string;
   linkedin: string;
   image?: string;
+  imageLightBg?: boolean;
 }
 
 interface TeamMemberCardProps {
@@ -25,12 +26,12 @@ export function TeamMemberCard({ member, onClick }: TeamMemberCardProps) {
       className="group relative bg-white rounded-lg overflow-hidden shadow-md cursor-pointer transition-all duration-300 ease-out hover:-translate-y-2 hover:scale-[1.03] hover:shadow-2xl"
     >
       {/* Photo */}
-      <div className="relative aspect-square overflow-hidden bg-gray-100 flex items-center justify-center">
+      <div className={`relative aspect-square overflow-hidden flex items-center justify-center ${member.imageLightBg ? "bg-gray-50 shadow-[inset_0_0_0_1px_rgba(0,0,0,0.08),inset_0_2px_8px_rgba(0,0,0,0.06)]" : "bg-gray-100"}`}>
         {member.image ? (
           <img
             src={member.image}
             alt={member.name}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top"
           />
         ) : (
           <User className="w-20 h-20 text-gray-400" />

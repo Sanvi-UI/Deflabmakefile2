@@ -95,7 +95,7 @@ export function Courses() {
       slug: "concept-ideation-in-vr",
       title: "Concept Ideation in VR",
       instructor: "Prof. Sugandh Malhotra",
-      duration: "14 weeks",
+      duration: "5 Days",
       students: "50 students",
       description: "Hands-on workshop focusing on virtual reality as a design tool. Students learn to ideate, sketch, and prototype concepts directly in immersive VR environments using industry-standard tools and platforms.",
       image: "https://images.unsplash.com/photo-1758598303762-56c85bef2496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbW1lcnNpdmUlMjBkaWdpdGFsJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI5NTYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
