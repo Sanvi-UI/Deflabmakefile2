@@ -1,12 +1,12 @@
 import svgPaths from "./svg-b21ftdksia";
-import imgImg from "./c0cf51be02437d2d153e1452f178343609c7551a.png";
-import imgImg1 from "./3cf29ff2bf79b70ecaf1205b7e445869cc8c060f.png";
-import imgImg2 from "./ea979a9551df9cb2bb177dcc92db78341f3a976a.png";
-import imgImg3 from "./fdb13c781ed1944f57d842f6d8041ac203fdf641.png";
-import imgImg4 from "./fc7056968172f51068ce32a5047d643b0ee60e77.png";
-import imgImg5 from "./e542a5ff15b56ea80c573c4c73ce9902d04c882b.png";
-import imgImg6 from "./dbdfeab53ecfc49bb38ea2b08d65e67613650165.png";
-import imgImg7 from "./1beaac6010fb1a0baf239fe8525c592b2cde9a33.png";
+import imgImg from "./c0cf51be02437d2d153e1452f178343609c7551a.webp";
+import imgImg1 from "./3cf29ff2bf79b70ecaf1205b7e445869cc8c060f.webp";
+import imgImg2 from "./ea979a9551df9cb2bb177dcc92db78341f3a976a.webp";
+import imgImg3 from "./fdb13c781ed1944f57d842f6d8041ac203fdf641.webp";
+import imgImg4 from "./fc7056968172f51068ce32a5047d643b0ee60e77.webp";
+import imgImg5 from "./e542a5ff15b56ea80c573c4c73ce9902d04c882b.webp";
+import imgImg6 from "./dbdfeab53ecfc49bb38ea2b08d65e67613650165.webp";
+import imgImg7 from "./1beaac6010fb1a0baf239fe8525c592b2cde9a33.webp";
 
 function Container() {
   return (

@@ -2,17 +2,17 @@ import { useState } from "react";
 import { PageHeader } from "../components/PageHeader";
 import { TeamMemberCard, type TeamMember } from "../components/TeamMemberCard";
 import { ProfileModal } from "../components/ProfileModal";
-import lalitDasImg from "../../imports/image-9.png";
-import rintaroImg from "../../imports/image-10.png";
-import sugandhImg from "../../imports/image-18.png";
-import nabajitImg from "../../imports/image-12.png";
-import dhiruImg from "../../imports/image-19.png";
-import piyushImg from "../../imports/image-17.png";
-import shivamImg from "../../imports/image-16.png";
-import ryotaImg from "../../imports/image-15.png";
-import ryoImg from "../../imports/image-14.png";
-import krishnanImg from "../../imports/image-13.png";
-import mayuImg from "../../imports/image-20.png";
+import lalitDasImg from "../../imports/image-9.webp";
+import rintaroImg from "../../imports/image-10.webp";
+import sugandhImg from "../../imports/image-18.webp";
+import nabajitImg from "../../imports/image-12.webp";
+import dhiruImg from "../../imports/image-19.webp";
+import piyushImg from "../../imports/image-17.webp";
+import shivamImg from "../../imports/image-16.webp";
+import ryotaImg from "../../imports/image-15.webp";
+import ryoImg from "../../imports/image-14.webp";
+import krishnanImg from "../../imports/image-13.webp";
+import mayuImg from "../../imports/image-20.webp";
 
 interface TeamCategory {
   category: string;

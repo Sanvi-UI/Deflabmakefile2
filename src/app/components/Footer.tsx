@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { Mail, Phone, MapPin } from "lucide-react";
-import defLabLogo from "figma:asset/image-2.png";
+import defLabLogo from "figma:asset/image-2.webp";
 
 export function Footer() {
   return (

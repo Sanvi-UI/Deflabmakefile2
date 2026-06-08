@@ -1,10 +1,10 @@
 import { useParams, useNavigate, Link } from "react-router";
 import { ArrowLeft } from "lucide-react";
-import coreImage from "../../imports/image-3.png";
-import descImage from "../../imports/image-4.png";
-import kingsprayImg from "../../imports/image-5.png";
-import openBrushImg from "../../imports/image-6.png";
-import gravitySketchImg from "../../imports/image-7.png";
+import coreImage from "../../imports/image-3.webp";
+import descImage from "../../imports/image-4.webp";
+import kingsprayImg from "../../imports/image-5.webp";
+import openBrushImg from "../../imports/image-6.webp";
+import gravitySketchImg from "../../imports/image-7.webp";
 
 type CourseDetailData = {
   slug: string;

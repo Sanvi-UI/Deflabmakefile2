@@ -1,5 +1,5 @@
 import svgPaths from "./svg-d2j3tzx0hp";
-import imgImg from "./1beaac6010fb1a0baf239fe8525c592b2cde9a33.png";
+import imgImg from "./1beaac6010fb1a0baf239fe8525c592b2cde9a33.webp";
 
 function H() {
   return (

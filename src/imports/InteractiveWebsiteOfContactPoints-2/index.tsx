@@ -1,6 +1,6 @@
 import svgPaths from "./svg-8o6nw2vx32";
-import imgImageInteractiveWebsiteOfContactPoints from "./146edc698ecec7b2cdb14f8cd73487514b8c63d2.png";
-import imgImageDeFLab from "./76e4edaeeac14080da988cdccbb815512c4dee20.png";
+import imgImageInteractiveWebsiteOfContactPoints from "./146edc698ecec7b2cdb14f8cd73487514b8c63d2.webp";
+import imgImageDeFLab from "./76e4edaeeac14080da988cdccbb815512c4dee20.webp";
 
 function Link() {
   return (
