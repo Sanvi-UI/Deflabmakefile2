@@ -1,5 +1,21 @@
 import { useParams, useNavigate, Link } from "react-router";
 import { ArrowLeft, Clock, User, GraduationCap } from "lucide-react";
+import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import driveHero from "@/imports/image-29.png";
+import driveImg2 from "@/imports/image-30.png";
+import driveImg3 from "@/imports/image-31.png";
+import escooterHero from "@/imports/image-32.png";
+import escooterImg2 from "@/imports/image-33.png";
+import escooterImg3 from "@/imports/image-34.png";
+import escooterPhoto from "@/imports/image-35.png";
+import acrylicHero from "@/imports/image-40.png";
+import acrylicImg2 from "@/imports/image-41.png";
+import acrylicImg3 from "@/imports/image-42.png";
+import acrylicImg4 from "@/imports/image-43.png";
+import piyushHero from "@/imports/image-36.png";
+import piyushImg2 from "@/imports/image-37.png";
+import piyushImg3 from "@/imports/image-38.png";
+import piyushImg4 from "@/imports/image-39.png";
 
 export function ResearchDetail() {
   const { id } = useParams();
@@ -8,20 +24,23 @@ export function ResearchDetail() {
   const projects = [
     {
       id: "digital-visualisation-automotive-vr",
-      title: "Digital Visualisation of Automotive in VR",
-      researcher: "Piyush",
-      professor: "Dr. Sarah Mitchell",
-      duration: "6 months",
+      title: "Automotive VR Visualization",
+      researcher: "Piyush Soni",
+      professor: "Prof. Sugandh Malhotra & Assist. Prof. Swarnadeep Nath",
+      duration: "-",
       category: "VR",
-      description: "This groundbreaking research explores the convergence of automotive design and virtual reality technology, creating immersive environments where designers and engineers can visualize, interact with, and refine vehicle concepts in three-dimensional space. The project investigates how VR can transform traditional automotive design workflows by enabling real-time collaboration, spatial understanding, and intuitive manipulation of complex design elements. By leveraging cutting-edge VR hardware and custom-developed visualization software, this research demonstrates how immersive technologies can reduce prototyping costs, accelerate design iterations, and enable more creative exploration in automotive development. The findings suggest that VR-based visualization tools can significantly improve stakeholder communication, design decision-making, and overall product quality in the automotive industry.",
-      bannerImage: "https://images.unsplash.com/photo-1485463611174-f302f6a5c1c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdXRvbW90aXZlJTIwVlIlMjB2aXN1YWxpemF0aW9uJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI5NjQ3NjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      description: "This project focuses on developing an efficient workflow for converting automotive CAD models into immersive Virtual Reality experiences. As the automotive industry increasingly adopts VR for design reviews, customer engagement, and product visualization, the conversion of complex NURBS-based CAD models into optimized VR assets remains a significant challenge. The research investigates the limitations of existing workflows and proposes a structured approach for transforming high-fidelity automotive models created in Autodesk Alias into VR-ready assets while preserving visual quality and performance. The study emphasizes mesh optimization, topology refinement, texture preparation, and workflow standardization to improve the overall efficiency of automotive VR content creation.\n\nThe project involved extensive experimentation using industry-standard tools such as Alias, Maya, Blender, Substance Painter, and Unreal Engine. Multiple iterations of NURBS-to-mesh conversion were conducted, followed by retopology, surface continuity analysis, mesh optimization, UV mapping, texturing, and VR integration. Quality assessment techniques including Zebra Analysis and Proximity Analysis were used to evaluate model accuracy and surface smoothness before deployment in a virtual environment. The final outcome is a comprehensive workflow that enables designers and developers to create high-quality automotive VR experiences more efficiently. By improving asset quality, reducing conversion issues, and enhancing visualization capabilities, the project contributes to the growing use of immersive technologies in automotive design, marketing, and user experience evaluation.",
+      bannerImage: "",
+      localBannerImage: piyushHero,
+      bannerImagePosition: "center 50%",
+      galleryImages: [piyushHero, piyushImg2, piyushImg3, piyushImg4],
     },
     {
       id: "gradient-tracking",
       title: "Gradient Tracking",
       researcher: "Adithyan K R",
       professor: "Dr. James Chen",
-      duration: "4 months",
+      duration: "-",
       category: "Interaction Design",
       description: "This innovative research investigates novel interaction paradigms using gradient-based tracking systems for immersive virtual reality interfaces. The project develops sophisticated algorithms that interpret subtle gradient variations in visual input to enable more natural and intuitive user interactions within VR environments. By analyzing color, depth, and spatial gradients in real-time, the system creates a responsive interface that adapts to user movements and gestures with unprecedented precision. The research demonstrates how gradient tracking can enhance user experience by reducing latency, improving gesture recognition accuracy, and enabling more fluid interactions between users and virtual objects. Applications range from artistic creation tools to industrial design interfaces, showcasing the versatility and potential of this approach in transforming how we interact with digital content in three-dimensional space.",
       bannerImage: "https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmFkaWVudCUyMHRyYWNraW5nJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3Mjk2NDc2NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -31,7 +50,7 @@ export function ResearchDetail() {
       title: "Polka Dot Interaction",
       researcher: "Adithyan K R",
       professor: "Dr. James Chen",
-      duration: "3 months",
+      duration: "-",
       category: "Interaction Design",
       description: "This experimental research explores pattern-based interaction methods for immersive environments, focusing on the unique properties of polka dot patterns as interaction triggers and visual feedback mechanisms. The project investigates how distributed dot patterns can serve as both interface elements and tracking markers, creating a seamless integration between visual design and functional interaction. Through user studies and iterative prototyping, the research demonstrates how polka dot patterns can enhance spatial awareness, provide intuitive feedback, and create engaging interactive experiences in both augmented and virtual reality contexts. The findings reveal that pattern-based interactions can reduce cognitive load while maintaining aesthetic appeal, making them particularly suitable for creative applications where visual design and functionality must coexist harmoniously.",
       bannerImage: "https://images.unsplash.com/photo-1672685847201-f0866fb87c52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnRlcmFjdGl2ZSUyMGRvdCUyMHBhdHRlcm4lMjBkZXNpZ258ZW58MXx8fHwxNzcyOTY0NzY0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -41,60 +60,90 @@ export function ResearchDetail() {
       title: "Dynamic Reality Integration for Vehicle Engineering",
       researcher: "Himansh Kumar Jatav",
       professor: "Prof. Sugandh Malhotra",
-      duration: "Not specified",
+      duration: "-",
       category: "Mobility",
       description: "DRIVE (Dynamic Reality Integration for Vehicle Engineering) is a VR-based automotive exploration platform developed using Unity and the XR Interaction Toolkit. The project addresses the limitations of traditional 2D and screen-based 3D visualization methods by creating an immersive, interactive environment where users can explore a detailed vehicle model at true 1:1 scale. Key features include grab-and-release mechanics for the hood and all four doors, a dynamic toggle to hide the car's exterior and reveal internal components, and contextual part-name display on interaction. Built with a focus on intuitive navigation, physical realism, and user comfort, the application demonstrates the potential of VR as a tool for automotive education, engineering review, and design exploration. The platform draws on real-world industry precedents where manufacturers like Ford and Volkswagen already use VR for design review and technician training, validating the approach taken in this project. Physics-based interaction through Unity's HingeJoint system ensures that component movement mirrors real-world behavior, strengthening the educational value of the experience. User testing confirmed that the application was intuitive, comfortable, and effective at communicating spatial relationships within the vehicle. The project lays a strong foundation for future development including driving simulation, multi-vehicle support, and real-time diagnostic data integration.",
-      bannerImage: "https://images.unsplash.com/photo-1581662853886-0d02cbe6bb0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2ZWhpY2xlJTIwZW5naW5lZXJpbmclMjBzaW11bGF0aW9ufGVufDF8fHx8MTc3Mjk2NDc2NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      bannerImage: "",
+      localBannerImage: driveHero,
+      galleryImages: [driveHero, driveImg2, driveImg3],
     },
     {
       id: "zippy3-rear-steered-escooter",
-      title: "E-Scooter Design & Development",
+      title: "Zippy3- Rear Steered Urban E-Scooter",
       researcher: "Naveed Kadechur",
       professor: "Prof. Sugandh Malhotra",
       duration: "7 weeks",
       category: "Mobility",
       description: "This project focuses on the design and fabrication of a three-wheeled utilitarian electric scooter purpose-built for short-range urban and semi-urban commuting. The process moves through four phases — research and benchmarking of existing e-scooter solutions, conceptual sketching and 3D modelling of the frame, electronics integration and physical fabrication using welding and bending, and final assembly with full system testing. Key design priorities include rider ergonomics, load-carrying capacity, frame stability, and ease of use. Electrical components including a hub motor, battery, and controller are sourced through DEF Lab and integrated into a custom-fabricated frame. The benchmarking phase draws comparisons across personal commuting, last-mile delivery, and intra-campus transport use cases to ensure the design is grounded in real-world application scenarios. Material selection and detailed fabrication drawings are developed alongside the 3D model to bridge the gap between concept and manufacture efficiently. The project also builds the researcher's practical skills in electrical systems integration, time management, and workshop fabrication techniques relevant to real-world vehicle development. The result is a stable, low-maintenance personal mobility vehicle that demonstrates how thoughtful design and hands-on engineering can together produce a viable solution for everyday urban transport.",
-      bannerImage: "https://images.unsplash.com/photo-1759213215109-081f2c1f67de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMHNjb290ZXIlMjB1cmJhbiUyMG1vYmlsaXR5fGVufDF8fHx8MTc3Mjk2NDc2NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      bannerImage: "",
+      localBannerImage: escooterPhoto,
+      bannerImagePosition: "center 50%",
+      bannerStroke: true,
+      galleryImages: [escooterHero, escooterImg2, escooterImg3],
     },
     {
       id: "compact-vtol-urban-commuting",
-      title: "Compact VTOL for Urban Commuting",
+      title: "Compact eVTOL for Urban Commuting",
       researcher: "Rangeet Hait",
       professor: "Prof. Sugandh Malhotra",
       duration: "7 weeks",
       category: "Mobility",
-      description: "This project explores the future of urban commuting through the design of a compact VTOL (Vertical Take-Off and Landing) vehicle, developed in collaboration with DEF Lab. The research phase investigates current commuting scenarios, user lifestyles, existing products, and the broader system in which such a vehicle would operate. Design exploration leverages both traditional sketching and VR-based ideation tools available at DEF Lab to iterate on form language and exterior design concepts. The project culminates in final 2D and 3D renderings of a concept vehicle that is contextually relevant, practically grounded, and formally resolved. Urban air mobility represents a significant shift in how we think about personal transport, and this project positions itself at that frontier by translating emerging technology into a tangible design concept. By integrating VR sketching into the workflow, the project also evaluates the advantages of immersive tools in early-stage vehicle ideation. The research findings contribute to a broader understanding of how air commute systems might be designed to fit real user needs and urban contexts. Ultimately, the project serves as both a design exercise and a forward-looking study into the spatial, aesthetic, and functional possibilities of next-generation personal mobility.",
+      description: "This project focuses on designing a compact electric Vertical Take-Off and Landing (eVTOL) vehicle intended to address the growing challenges of urban transportation, traffic congestion, and increasing travel times in densely populated cities. Through extensive research on transportation infrastructure, urban mobility patterns, existing eVTOL technologies, and aviation design principles, the project investigates the potential of personal aerial mobility as an efficient alternative to conventional road-based commuting. The study examines current developments in the eVTOL industry, analyzes existing aircraft configurations, and identifies opportunities for creating a vehicle that combines compactness, efficiency, safety, and user accessibility. Particular attention is given to the needs of modern urban professionals who require faster travel options while maintaining flexibility for both intra-city and intercity journeys.\n\nThe design process incorporates user research, market analysis, aviation ergonomics, pilot-orientation studies, and form exploration using advanced visualization techniques, including VR sketching and digital modeling. The final concept proposes a low-altitude, single-seater personal eVTOL vehicle capable of vertical take-off and landing while maintaining stable flight performance and a compact footprint for convenient parking and storage. The project emphasizes ease of operation for individuals without formal pilot training, making personal air mobility more accessible to a broader audience. By integrating futuristic transportation technologies with human-centered design principles, the proposed solution aims to reduce dependency on congested road networks, shorten commuting times, and provide a practical vision for the future of sustainable urban transportation. The project ultimately demonstrates how emerging aviation technologies can be leveraged to create innovative mobility solutions that enhance efficiency, convenience, and quality of life in rapidly urbanizing environments.",
       bannerImage: "https://images.unsplash.com/photo-1676193672216-c3df9cda6b41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxWVE9MJTIwYWlyY3JhZnQlMjB1cmJhbiUyMGRlc2lnbnxlbnwxfHx8fDE3NzI5NjQ3NjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "gesture-game-immersive-ads",
       title: "Gesture-Based Game for Immersive Advertisements",
       researcher: "Sneha Tiwari",
-      professor: "Dr. Priya Sharma",
-      duration: "5 months",
+      professor: "Prof. Sugandh Malhotra",
+      duration: "5 weeks",
       category: "Interaction Design",
-      description: "This research investigates the intersection of gaming, gesture recognition, and advertising within the unique context of Indian urban spaces. The project develops innovative gesture-controlled interactive experiences that transform public advertising from passive viewing to active engagement. Through the creation of prototype systems deployed in high-traffic urban areas, the research demonstrates how gesture-based interactions can increase audience engagement, create memorable brand experiences, and generate valuable data about consumer behavior. The study addresses technical challenges such as varying lighting conditions, diverse user populations, and crowded environments while maintaining robust gesture recognition performance. The findings reveal important insights about cultural preferences in interaction design, the potential of gamification in advertising, and the ethical considerations of deploying interactive systems in public spaces.",
+      description: "This project explores the potential of gesture-based interactive gaming as a tool for immersive advertising in Indian urban spaces. A 3D space-themed game was designed and developed using Unity and Python with MediaPipe-based hand gesture recognition, enabling users to interact through natural gestures such as bursting enemies and saving astronauts. Inspired by successful global advergaming campaigns, the project investigates how interactive public installations can transform traditional passive advertising into engaging, participatory experiences. The system was designed for deployment in high-footfall public environments such as malls, transit hubs, and urban plazas, where it can attract attention, encourage active participation, and improve message recall. Through user testing and evaluation, the research examined the effectiveness of gesture-controlled gameplay in enhancing audience engagement, emotional connection, and overall interaction quality, while demonstrating the potential of game-based experiences as innovative advertising solutions for urban India.",
       bannerImage: "https://images.unsplash.com/photo-1727846990874-a0e0503d9dde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZXN0dXJlJTIwYmFzZWQlMjBnYW1pbmclMjBpbnRlcmFjdGlvbnxlbnwxfHx8fDE3NzI5NjQ3NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "interactive-website-contact-points",
       title: "Interactive Website of Contact Points",
-      researcher: "RYO",
-      professor: "Dr. Takeshi Yamamoto",
-      duration: "7 months",
+      researcher: "Ryo Nakamoto",
+      professor: "Prof. Sugandh Malhotra & Prof. Shin Matsumura",
+      duration: "-",
       category: "Interaction Design",
-      description: "This experimental research explores the complex relationships between digital interfaces, the human body, and physical environments through the lens of contact points and interaction design. The project develops an innovative web-based platform that maps and visualizes the various points of contact between users, digital systems, and their surrounding spaces. Through interdisciplinary approaches combining interaction design, phenomenology, and embodied cognition research, this work challenges traditional notions of human-computer interaction by emphasizing the physical and spatial dimensions of digital experiences. The research demonstrates how acknowledging and designing for these contact points can lead to more intuitive, accessible, and meaningful digital interactions. The findings have implications for web design, accessibility, and the future development of spatial computing interfaces.",
+      description: "This project explores the relationship between digital information, the human body, and the surrounding environment through an interactive web-based experience. As internet-connected devices such as smartphones and laptops have become an integral part of everyday life, people increasingly rely on digital information to make decisions and interact with the world. The project investigates how information, which is often invisible and exists as digital data, can be transformed into a tangible and bodily experience. Through extensive research on internet and smartphone usage, the researcher examined how individuals continuously engage with information through screens in both private and public spaces.\n\nThe outcome of the project is an interactive website inspired by the poem \"Put Your Hands Up to the Sun.\" The website encourages users to take their smartphone screen into sunlight, where the display gradually turns red, evoking the experience of seeing blood flow through a hand illuminated by sunlight. By combining the smartphone, the user's body, and natural environmental elements such as the sun, the project creates a unique sensory interaction that raises awareness of the connection between digital media and physical existence. The work encourages users to reflect on how technology mediates their perception of the world while simultaneously reconnecting them with their own bodies and immediate surroundings. Ultimately, the project presents an artistic and experiential approach to understanding the invisible relationship between information, technology, human perception, and environmental interaction.",
       bannerImage: "https://images.unsplash.com/photo-1657812159077-90649115008c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnRlcmFjdGl2ZSUyMHdlYiUyMGRlc2lnbiUyMGVudmlyb25tZW50fGVufDF8fHx8MTc3Mjk2NDc2Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "exploring-creative-acts-misuse",
-      title: "Exploring Creative Acts through Misuse",
-      researcher: "Rintaro",
-      professor: "Dr. Kenji Nakamura",
-      duration: "6 months",
-      category: "VR",
-      description: "This provocative research investigates the creative possibilities that emerge when technologies and design tools are used in ways that diverge from their intended purposes. By deliberately exploring 'misuse' as a creative methodology, the project uncovers new interaction paradigms, unexpected aesthetic possibilities, and alternative approaches to problem-solving in virtual reality contexts. Through systematic experimentation and documentation of unintended uses, the research reveals how constraints, accidents, and unconventional approaches can lead to innovative outcomes. The project challenges conventional notions of 'correct' tool usage and demonstrates how embracing misuse can foster creativity, encourage experimentation, and expand the boundaries of what's possible in digital design. The findings have implications for design education, creative practice, and the development of more flexible, open-ended design tools.",
+      title: "Exploring Creative Acts Through Misuse",
+      researcher: "Rintaro Fujita",
+      professor: "Prof. Sugandh Malhotra & Prof. Scott Allen",
+      duration: "-",
+      category: "Interaction Design",
+      description: "This project investigates how the intentional misuse of technology can become a catalyst for creative expression and artistic innovation. Inspired by historical examples such as turntable scratching, circuit bending, and other unconventional technological practices, the research explores how digital systems can be repurposed beyond their intended functions to reveal unexpected behaviors and generate novel forms of interaction. The study specifically focuses on black-box technologies such as iPhone text-recognition systems and camera smile-detection algorithms, examining how their limitations, biases, and recognition patterns can be transformed into creative tools. Through a series of experimental interventions, the researcher analyzed how these systems respond to manipulated visual inputs, abstract imagery, and deliberately misleading designs.\n\nTo support this investigation, a custom iPhone Text Recognition (I2T) Simulator was developed using Swift and Xcode, enabling large-scale testing of image-recognition behavior. Thousands of generated images, abstract facial representations, Bezier-curve drawings, and visual compositions were processed to provoke algorithmic misrecognition. The findings revealed that machine-vision systems often identify patterns and meanings where humans perceive none, exposing hidden biases embedded within recognition algorithms. By leveraging these unexpected outcomes, the project demonstrates how technological misuse can serve as a medium for artistic exploration, encouraging new ways of understanding the relationship between human perception, machine intelligence, and creative design. Ultimately, the work highlights how errors, glitches, and misrecognitions can become valuable resources for innovation and experimental visual expression.",
       bannerImage: "https://images.unsplash.com/photo-1617004574627-d3bd7fb4a71a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGFydCUyMG1pc3VzZSUyMGNvbmNlcHR8ZW58MXx8fHwxNzcyOTY0NzY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    },
+    {
+      id: "impossible-worlds-vr",
+      title: "Impossible Worlds in VR",
+      researcher: "Adithyan K R",
+      professor: "Prof. Sugandh Malhotra",
+      duration: "-",
+      category: "VR",
+      description: "This project explores how virtual reality can transform static works of art into immersive and interactive experiences by reimagining M.C. Escher's famous artwork Relativity as a navigable virtual world. The research investigates the potential of VR to create paradoxical environments that challenge conventional understandings of space, gravity, and movement. Inspired by Escher's impossible architecture, the project enables users to step inside a world of interconnected staircases, looping pathways, and gravity-defying structures that would be impossible to experience in the physical world. By combining artistic inspiration with advanced digital technologies, the project seeks to understand how immersive environments can alter human perception and create entirely new forms of spatial exploration.\n\nThe development process involved creating optimized low-poly 3D assets using Autodesk Maya, applying detailed textures through Adobe Substance Painter, and assembling the complete environment in Unreal Engine 5. A custom teleportation door system was designed and implemented using Unreal Engine Blueprints, allowing users to move seamlessly between different areas and experience non-Euclidean spatial relationships. Additional interactive elements such as animated staircases, smooth locomotion systems, and spatial navigation mechanics were integrated to enhance immersion and usability. User testing focused on understanding how individuals react to environments that deliberately challenge their expectations of reality and spatial logic. The final outcome demonstrates how virtual reality can bridge the gap between traditional art and interactive technology, creating engaging experiences that encourage curiosity, exploration, and deeper reflection on the nature of perception, architecture, and human cognition.",
+      bannerImage: "https://images.unsplash.com/photo-1617004574627-d3bd7fb4a71a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGFydCUyMG1pc3VzZSUyMGNvbmNlcHR8ZW58MXx8fHwxNzcyOTY0NzY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    },
+    {
+      id: "acrylic-panel-floating-depth",
+      title: "The Unintended Acrylic Panel Edge",
+      researcher: "Rintaro Fujita",
+      professor: "Prof. Sugandh Malhotra",
+      duration: "-",
+      category: "Interaction Design",
+      description: "This research explores the potential of unintended material properties to create novel visual experiences and alternative forms of display technology. The project investigates how acrylic sheets arranged in carefully designed cross-sectional configurations can generate a unique floating-depth illusion, where images appear to exist in front of the physical surface without the need for electronic displays, wearable devices, or complex optical systems. Inspired by the concept of Creative Unintentional Use, the study intentionally examines how materials can be used beyond their conventional purpose to uncover unexpected opportunities for design innovation. Through iterative prototyping, optical experimentation, and material exploration, multiple acrylic configurations were developed and tested to understand how refraction, occlusion, and viewing angles influence visual perception.\n\nTo evaluate the experiential qualities of the display, the researcher conducted qualitative user studies with participants from diverse design and engineering backgrounds. Observations and interviews revealed that users interpreted the same visual phenomenon in remarkably different ways, describing it as a hologram, mirage, ghost-like image, magical effect, or floating screen. The findings demonstrated that visual ambiguity can encourage curiosity, physical engagement, exploration, and personal meaning-making rather than being perceived as a design flaw. The project contributes to the fields of Human-Computer Interaction (HCI), Material-Driven Design, and interactive display research by proposing ambiguity, material intelligence, and embodied interaction as valuable design resources. The outcome presents a low-cost and innovative approach to creating immersive visual experiences that can be applied in museums, exhibitions, educational environments, interactive installations, and future display technologies, while challenging conventional assumptions that higher fidelity and clarity always lead to better user experiences.",
+      bannerImage: "",
+      localBannerImage: acrylicImg2,
+      bannerImagePosition: "center 50%",
+      galleryImages: [acrylicHero, acrylicImg2, acrylicImg3, acrylicImg4],
+      galleryNaturalWidthFromIndex: 2,
     },
   ];
 
@@ -139,18 +188,29 @@ export function ResearchDetail() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24">
           {/* LEFT: Image */}
-          <div className="h-[400px] lg:h-[600px] overflow-hidden bg-gray-100 rounded-lg">
-            <img
-              src={project.bannerImage}
-              alt={project.title}
-              className="w-full h-full object-cover"
-            />
+          <div className={`h-[400px] lg:h-[600px] overflow-hidden bg-gray-100 rounded-lg${(project as any).bannerStroke ? " border-2 border-black" : ""}`}>
+            {(project as any).localBannerImage ? (
+              <ImageWithFallback
+                src={(project as any).localBannerImage}
+                alt={project.title}
+                className="w-full h-full object-cover"
+                style={{ objectPosition: (project as any).bannerImagePosition ?? "center 55%" }}
+              />
+            ) : (
+              <img
+                src={project.bannerImage}
+                alt={project.title}
+                className="w-full h-full object-cover"
+              />
+            )}
           </div>
 
           {/* RIGHT: Title and Info */}
           <div className="flex flex-col justify-center">
             {/* Project Title */}
-            <h1 className="text-5xl md:text-6xl text-[#003153] mb-12">{project.title}</h1>
+            <h1 className="text-5xl md:text-6xl text-[#003153] mb-12">
+              {(project as any).shortTitle ?? project.title}
+            </h1>
 
             {/* Info List - Duration, Professor, Researcher */}
             <div className="space-y-6">
@@ -163,7 +223,11 @@ export function ResearchDetail() {
               {/* Professor */}
               <div>
                 <p className="text-sm text-[#666666] mb-1">Professor</p>
-                <p className="text-lg text-[#003153]">{project.professor}</p>
+                <div className="flex flex-col gap-1">
+                  {project.professor.split(" & ").map((name, i) => (
+                    <p key={i} className="text-lg text-[#003153]">{name}</p>
+                  ))}
+                </div>
               </div>
 
               {/* Researcher */}
@@ -184,23 +248,55 @@ export function ResearchDetail() {
           <p className="text-lg text-[#666666] leading-relaxed">{project.description}</p>
         </div>
 
-        {/* Photo Gallery - Bento Grid */}
+        {/* Photo Gallery */}
         <div className="mb-24">
           <h2 className="text-2xl text-[#003153] mb-6">Gallery</h2>
-          
-          {/* Bento Grid Layout */}
-          <div className="grid grid-cols-6 gap-4 auto-rows-[200px]">
-            {/* Large item - spans 3x2 */}
-            <div className="col-span-3 row-span-2 bg-gray-200 rounded-xl"></div>
-            
-            {/* Tall right item - spans 3x2 */}
-            <div className="col-span-3 row-span-2 bg-gray-200 rounded-xl"></div>
-            
-            {/* Bottom row - 3 equal items */}
-            <div className="col-span-2 row-span-1 bg-gray-200 rounded-xl"></div>
-            <div className="col-span-2 row-span-1 bg-gray-200 rounded-xl"></div>
-            <div className="col-span-2 row-span-1 bg-gray-200 rounded-xl"></div>
-          </div>
+
+          {(project as any).galleryImages ? (
+            /* Horizontal scrollable strip — all images equal height, cropped consistently */
+            <div className="overflow-x-auto -mx-4 px-4 pb-2">
+              <div className="flex gap-6 items-start" style={{ width: "max-content" }}>
+                {((project as any).galleryImages as string[]).map((img, i) => {
+                  const naturalFrom = (project as any).galleryNaturalWidthFromIndex ?? Infinity;
+                  const isNatural = i >= naturalFrom;
+                  return isNatural ? (
+                    <div
+                      key={i}
+                      className="flex-shrink-0 rounded-xl overflow-hidden bg-gray-100 shadow-md"
+                      style={{ height: "380px" }}
+                    >
+                      <ImageWithFallback
+                        src={img}
+                        alt={`${project.title} image ${i + 1}`}
+                        style={{ height: "380px", width: "auto", display: "block" }}
+                      />
+                    </div>
+                  ) : (
+                    <div
+                      key={i}
+                      className="flex-shrink-0 rounded-xl overflow-hidden bg-gray-100 shadow-md"
+                      style={{ width: "560px", height: "380px" }}
+                    >
+                      <ImageWithFallback
+                        src={img}
+                        alt={`${project.title} image ${i + 1}`}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ) : (
+            /* Bento Grid Layout for other projects */
+            <div className="grid grid-cols-6 gap-4 auto-rows-[200px]">
+              <div className="col-span-3 row-span-2 bg-gray-200 rounded-xl"></div>
+              <div className="col-span-3 row-span-2 bg-gray-200 rounded-xl"></div>
+              <div className="col-span-2 row-span-1 bg-gray-200 rounded-xl"></div>
+              <div className="col-span-2 row-span-1 bg-gray-200 rounded-xl"></div>
+              <div className="col-span-2 row-span-1 bg-gray-200 rounded-xl"></div>
+            </div>
+          )}
         </div>
 
         {/* Back Button */}

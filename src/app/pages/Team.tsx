@@ -16,6 +16,8 @@ import mayuImg from "../../imports/image-20.webp";
 import sanskarImg from "../../imports/image-18.png";
 import radhikaImg from "../../imports/image-19.png";
 import vaibhavImg from "../../imports/image-20.png";
+import zechariaImg from "../../imports/image-44.png";
+import aryamaanImg from "../../imports/image-45.png";
 
 interface TeamCategory {
   category: string;
@@ -28,11 +30,11 @@ const teamCategories: TeamCategory[] = [
     members: [
       {
         name: "Dr. Lalit Kumar Das",
-        role: "Distinguished Visiting Professor",
+        role: "Faculty",
         department: "IDC School of Design, IIT Bombay",
-        cardRole: "Distinguished Visiting Professor",
+        cardRole: "Faculty",
         cardDepartment: "IDC School of Design, IIT Bombay",
-        bio: "Dr. Lalit Kumar Das is a pioneer of Industrial Design education in India, having built the programme at IIT Delhi into a benchmark of design sensibility and industrial rigour. He holds a B.Tech from IIT Kanpur, an M.Tech in Design Engineering from IIT Delhi, and an MA in Industrial Design from the Royal College of Art, London. Currently he serves as Distinguished Visiting Professor at IIT Bombay, Advisor and Visiting Professor at the School of Design, Mahindra University, and Honorary Faculty at the Department of Design, DTU (2024-29).\n\nHighlights:\n• Conducted ergonomic studies for the Operational Control Centres of Delhi Metro, Bangalore Metro, and Hyderabad Metro\n• Designed products for the office, home, and industry, including for children with cerebral palsy and orthopedically handicapped users\n• Founding Editor of the Design for All India newsletter; contributed to the National Design Policy and National Committee on Design and artisan development\n• Supervises doctoral students at IIT Delhi, IIT Bombay, DTU, and NID across emotion, sustainability, e-governance, frugal design, and image processing\n• Expert Member in DST's Science and Society Programme and TePP; PAMC member for the Government of India's Design Clinic Scheme for MSMEs\n• Delivered TEDx talks on enabling innovation and values in complex systems; deeply engaged with Sustainable Design, Circular Economy, and Emergent Systems",
+        bio: "Dr. Lalit Kumar Das is a pioneer of Industrial Design education in India, having built the programme at IIT Delhi into a benchmark of design sensibility and industrial rigour. He holds a B.Tech from IIT Kanpur, an M.Tech in Design Engineering from IIT Delhi, and an MA in Industrial Design from the Royal College of Art, London. Currently he serves as Distinguished Visiting Professor at IIT Bombay, Advisor and Visiting Professor at the School of Design, Mahindra University, and Honorary Faculty at the Department of Design, DTU (2024-29).\n\nAchievements:\n• Conducted ergonomic studies for the Operational Control Centres of Delhi Metro, Bangalore Metro, and Hyderabad Metro\n• Designed products for the office, home, and industry, including for children with cerebral palsy and orthopedically handicapped users\n• Founding Editor of the Design for All India newsletter; contributed to the National Design Policy and National Committee on Design and artisan development\n• Supervises doctoral students at IIT Delhi, IIT Bombay, DTU, and NID across emotion, sustainability, e-governance, frugal design, and image processing\n• Expert Member in DST's Science and Society Programme and TePP; PAMC member for the Government of India's Design Clinic Scheme for MSMEs\n• Delivered TEDx talks on enabling innovation and values in complex systems; deeply engaged with Sustainable Design, Circular Economy, and Emergent Systems",
         interests: ["Sustainable Design", "Inclusive Design", "Design Policy", "Ergonomics", "Circular Economy", "Emergent Systems"],
         email: "lalit.das@deflab.in",
         linkedin: "https://linkedin.com/in/lalitdas",
@@ -40,11 +42,11 @@ const teamCategories: TeamCategory[] = [
       },
       {
         name: "Dr. Sugandh Malhotra",
-        role: "Full Professor & Founder, DeF Lab",
+        role: "Faculty Incharge, DeF Lab",
         department: "Mobility & Vehicle Design, IDC School of Design, IIT Bombay",
-        cardRole: "Full Professor & Founder",
+        cardRole: "Faculty Incharge",
         cardDepartment: "Mobility & Vehicle Design, IDC",
-        bio: "Dr. Sugandh Malhotra is a Full Professor and Coordinator in the Mobility and Vehicle Design (MVD) program at the IDC School of Design, IIT Bombay, and the Founder of the Design for Future (DeF) Lab. With a Ph.D. in Design from IIT Delhi focusing on Design Forecasting, he brings over 22 years of combined industry and academic experience to his work at the intersection of future mobility, digital prototyping, and creative technology.\n\nHighlights:\n• 16 years of industry practice in industrial design and automotive styling, with projects for Honda R&D, Hero Global Design, Aprilia Motors (Italy), Bombardier (Canada), and SETI Labs Berkeley\n• Instrumental in launching 18+ techno-commercially successful products at pan-India scale\n• Winner of the Joseph Jaworski NextGen Foresight Award (2019) and multiple national and international design awards\n• Research focus: design research methodologies, trend forecasting, intelligent mobility systems, and sustainable product solutions\n• Mentored students across IIT Delhi, IIT Roorkee, SPA Delhi, and several other premier institutions",
+        bio: "Dr. Sugandh Malhotra is a Full Professor and Coordinator in the Mobility and Vehicle Design (MVD) program at the IDC School of Design, IIT Bombay, and the Founder of the Design for Future (DeF) Lab. With a Ph.D. in Design from IIT Delhi focusing on Design Forecasting, he brings over 22 years of combined industry and academic experience to his work at the intersection of future mobility, digital prototyping, and creative technology.\n\nAchievements:\n• 16 years of industry practice in industrial design and automotive styling, with projects for Honda R&D, Hero Global Design, Aprilia Motors (Italy), Bombardier (Canada), and SETI Labs Berkeley\n• Instrumental in launching 18+ techno-commercially successful products at pan-India scale\n• Winner of the Joseph Jaworski NextGen Foresight Award (2019) and multiple national and international design awards\n• Research focus: design research methodologies, trend forecasting, intelligent mobility systems, and sustainable product solutions\n• Mentored students across IIT Delhi, IIT Roorkee, SPA Delhi, and several other premier institutions",
         interests: ["Future Mobility", "Design Forecasting", "Automotive Styling", "Intelligent Mobility", "Digital Prototyping"],
         email: "sugandh@deflab.in",
         linkedin: "https://linkedin.com/in/sugandh",
@@ -112,7 +114,7 @@ const teamCategories: TeamCategory[] = [
         role: "Animation Designer | Storyboard Artist | VR Artist",
         department: "Central Institute of Technology Kokrajhar",
         cardRole: "Staff",
-        cardDepartment: "Animation & VR Artist",
+        cardDepartment: "Technical Support",
         bio: "Dhiru Boro completed his Bachelor of Design in Animation Design from the Central Institute of Technology Kokrajhar. His interests lie in animation, visual storytelling, storyboarding, and immersive media. Over the years, he has worked on projects involving character design, sequential storytelling, digital illustration, and VR-based creative experiences using tools such as Gravity Sketch, Open Brush, and Kingspray VR. He is particularly interested in exploring how emerging technologies can be used to create engaging stories and interactive experiences. He is also interested in cultural preservation through visual storytelling and exploring how design and technology can help document, communicate, and share stories with wider audiences. Through his work, he strives to create meaningful experiences while continuously learning and experimenting with new creative approaches.",
         interests: ["Animation", "Visual Storytelling", "Storyboarding", "Immersive Media", "VR Art", "Cultural Preservation"],
         email: "dhiru@deflab.in",
@@ -124,7 +126,7 @@ const teamCategories: TeamCategory[] = [
         role: "Senior Project Staff",
         department: "Design for Future Lab, IDC School of Design, IIT Bombay",
         cardRole: "Staff",
-        cardDepartment: "Immersive Technology & VR/AR",
+        cardDepartment: "Technical Support",
         bio: "Piyush Soni is a Senior Project Staff member at the Design for Future Lab within IIT Bombay's IDC School of Design. Building on his design degree from the Central Institute of Technology Kokrajhar, he has recently sought to expand his academic journey at IIT. His core expertise lies at the intersection of immersive technologies (VR/AR/MR), 3D animation, and real-time interactive installations. As both an educator and researcher, he has pioneered a sixteen week VR sketching course and authored a research paper on 4D immersive pedagogy.",
         interests: ["Immersive Technologies", "VR/AR/MR", "3D Animation", "Interactive Installations", "4D Immersive Pedagogy"],
         email: "piyush@deflab.in",
@@ -136,18 +138,19 @@ const teamCategories: TeamCategory[] = [
         role: "Staff",
         department: "Technical Support",
         cardRole: "Staff",
-        cardDepartment: "Central Institute of Technology, Kokrajhar",
+        cardDepartment: "Technical Support",
         bio: "Zecharia Sari is originally from the hills of Shillong, Meghalaya, also known as the abode of clouds. He completed his schooling at St. Anthony's Higher Secondary School and pursued his Bachelor of Design at the Central Institute of Technology, where he began his creative journey and eventually evolved into a specialization in design and technology.",
         interests: ["Design", "Technology", "Technical Support", "Operations"],
         email: "zecharia@deflab.in",
         linkedin: "https://linkedin.com/in/zechariasari",
+        image: zechariaImg,
       },
       {
         name: "Vaibhav Chawla",
         role: "Mobility & Vehicle Designer",
         department: "IDC School of Design, IIT Bombay",
         cardRole: "Staff",
-        cardDepartment: "Mobility & Vehicle Design",
+        cardDepartment: "Technical Support",
         bio: "Vaibhav Chawla is from Meerut, Uttar Pradesh. He designs cool stuff like cars, watches and much more. He holds a B.Des in Fashion and Lifestyle Accessory Design from NIFT Bombay and an M.Des in Mobility and Vehicle Design from IDC School of Design, IIT Bombay.",
         interests: ["Mobility Design", "Vehicle Design", "Accessory Design", "Watches"],
         email: "vaibhav@deflab.in",
@@ -192,6 +195,7 @@ const teamCategories: TeamCategory[] = [
         interests: ["VR Filmmaking", "Animation", "World Building", "Spatial Audio", "Art Direction"],
         email: "aryamaan@deflab.in",
         linkedin: "https://linkedin.com/in/aryamaan",
+        image: aryamaanImg,
       },
       {
         name: "Radhika",
