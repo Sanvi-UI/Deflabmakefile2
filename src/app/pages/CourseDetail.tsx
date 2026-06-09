@@ -2,6 +2,7 @@ import { useParams, useNavigate, Link } from "react-router";
 import { ArrowLeft } from "lucide-react";
 import coreImage from "../../imports/image-3.webp";
 import timelineImmersiveArt from "../../imports/image-113.png";
+import processConceptIdeation from "../../imports/image-116.png";
 import descImage from "../../imports/image-4.webp";
 import kingsprayImg from "../../imports/image-7.webp";
 import openBrushImg from "../../imports/image-6.webp";
@@ -285,6 +286,18 @@ export function CourseDetail() {
               </div>
             </section>
 
+            {/* The Process */}
+            <section className="mb-16">
+              <h2 className={headingClass}>The Process</h2>
+              <div className="w-full overflow-hidden rounded-2xl shadow-[0px_10px_24px_-12px_rgba(0,0,0,0.15)]">
+                <img
+                  src={processConceptIdeation}
+                  alt="The Process"
+                  className="block w-full h-auto"
+                />
+              </div>
+            </section>
+
             {/* Learning Objectives */}
             <section className="mb-16">
               <h2 className={headingClass}>Learning Objectives</h2>
@@ -299,23 +312,6 @@ export function CourseDetail() {
                   >
                     <h3 className="text-2xl text-[#FF6600] font-medium leading-tight mb-6">{obj.title}</h3>
                     {obj.sub && <p className="text-[#666666] leading-relaxed">{obj.sub}</p>}
-                  </div>
-                ))}
-              </div>
-            </section>
-
-            {/* Software */}
-            <section className="mb-16">
-              <h2 className={headingClass}>Software Involved</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                {[
-                  { name: "Gravity Sketch", img: gravitySketchImg },
-                  { name: "Open Brush", img: openBrushImg },
-                  { name: "Kingspray", img: kingsprayImg },
-                ].map((tool) => (
-                  <div key={tool.name}>
-                    <img src={tool.img} alt={tool.name} className="w-full h-auto block rounded-xl" />
-                    <p className="text-center text-[#003153] mt-3">{tool.name}</p>
                   </div>
                 ))}
               </div>
