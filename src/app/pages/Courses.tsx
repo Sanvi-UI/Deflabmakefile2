@@ -3,6 +3,9 @@ import { BookOpen, Users, Clock, ArrowRight } from "lucide-react";
 import { Link } from "react-router";
 import { PageHeader } from "../components/PageHeader";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
+import immersiveArtCover from "../../imports/image-57.png";
+import conceptIdeationCover from "../../imports/image-69.png";
+import teachingPhilosophyImg from "../../imports/image-78.png";
 
 function CourseCard({ course, index }: { course: any; index: number }) {
   const { ref, isVisible } = useScrollAnimation();
@@ -82,14 +85,14 @@ function CourseCard({ course, index }: { course: any; index: number }) {
 export function Courses() {
   const courses = [
     {
-      slug: "design-for-future",
-      title: "Design for Future",
+      slug: "immersive-art-in-vr",
+      title: "Immersive Art in VR",
       instructor: "Prof. Sugandh Malhotra",
-      duration: "Elective (14 weeks)",
-      students: "30-40 students",
-      description: "An intensive course exploring future design scenarios through immersive technologies, speculative design, and creative prototyping. Students develop skills in conceptualizing and visualizing future mobility and interaction paradigms.",
-      image: "https://images.unsplash.com/photo-1761122912306-13d8f83892c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjByZXNlYXJjaCUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NzI5NTYxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      topics: ["Speculative Design", "Future Scenarios", "Digital Prototyping", "Design Research Methods"],
+      duration: "14 weeks",
+      students: "75 students",
+      description: "Exploring the intersection of art and technology through virtual reality. Students create immersive artistic experiences, learn creative coding for VR, and develop interactive installations.",
+      image: immersiveArtCover,
+      topics: ["Creative Coding", "Interactive Art", "VR Experiences", "Installation Design"],
     },
     {
       slug: "concept-ideation-in-vr",
@@ -98,18 +101,18 @@ export function Courses() {
       duration: "5 Days",
       students: "50 students",
       description: "Hands-on workshop focusing on virtual reality as a design tool. Students learn to ideate, sketch, and prototype concepts directly in immersive VR environments using industry-standard tools and platforms.",
-      image: "https://images.unsplash.com/photo-1758598303762-56c85bef2496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbW1lcnNpdmUlMjBkaWdpdGFsJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI5NTYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: conceptIdeationCover,
       topics: ["VR Design Tools", "3D Sketching", "Spatial Design", "Immersive Prototyping"],
     },
     {
-      slug: "immersive-art-in-vr",
-      title: "Immersive Art in VR",
+      slug: "design-for-future",
+      title: "Design for Future",
       instructor: "Prof. Sugandh Malhotra",
-      duration: "14 weeks",
-      students: "75 students",
-      description: "Exploring the intersection of art and technology through virtual reality. Students create immersive artistic experiences, learn creative coding for VR, and develop interactive installations.",
-      image: "https://images.unsplash.com/photo-1758598303762-56c85bef2496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbW1lcnNpdmUlMjBkaWdpdGFsJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI5NTYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      topics: ["Creative Coding", "Interactive Art", "VR Experiences", "Installation Design"],
+      duration: "Elective (14 weeks)",
+      students: "30-40 students",
+      description: "An intensive course exploring future design scenarios through immersive technologies, speculative design, and creative prototyping. Students develop skills in conceptualizing and visualizing future mobility and interaction paradigms.",
+      image: "https://images.unsplash.com/photo-1761122912306-13d8f83892c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjByZXNlYXJjaCUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NzI5NTYxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      topics: ["Speculative Design", "Future Scenarios", "Digital Prototyping", "Design Research Methods"],
     },
   ];
 
@@ -162,7 +165,7 @@ export function Courses() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1759092912891-9f52486bb059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1bml2ZXJzaXR5JTIwbGFib3JhdG9yeXxlbnwxfHx8fDE3NzI5NTYxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={teachingPhilosophyImg}
                 alt="Lab Learning Environment"
                 className="w-full h-full object-cover"
               />

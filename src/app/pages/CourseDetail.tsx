@@ -1,25 +1,35 @@
 import { useParams, useNavigate, Link } from "react-router";
 import { ArrowLeft } from "lucide-react";
 import coreImage from "../../imports/image-3.webp";
+import timelineImmersiveArt from "../../imports/image-113.png";
 import descImage from "../../imports/image-4.webp";
-import kingsprayImg from "../../imports/image-5.webp";
+import kingsprayImg from "../../imports/image-7.webp";
 import openBrushImg from "../../imports/image-6.webp";
-import gravitySketchImg from "../../imports/image-7.webp";
-import conceptIdeationIntroImg from "../../imports/image-3.png";
-import conceptGallery1 from "../../imports/image-4.png";
-import conceptGallery2 from "../../imports/image-5.png";
-import conceptGallery3 from "../../imports/image-6.png";
-import conceptGallery4 from "../../imports/image-7.png";
-import iaFinal1 from "../../imports/image-9.png";
-import iaFinal2 from "../../imports/image-10.png";
-import iaFinal3 from "../../imports/image-11.png";
-import iaFinal4 from "../../imports/image-12.png";
-import iaFinal5 from "../../imports/image-13.png";
-import iaFinal6 from "../../imports/image-14.png";
-import iaFinal7 from "../../imports/image-15.png";
-import iaFinal8 from "../../imports/image-16.png";
-import iaFinal9 from "../../imports/image-17.png";
+import gravitySketchImg from "../../imports/image-5.webp";
+import conceptIdeationIntroImg from "../../imports/image-68.png";
+import conceptGallery1 from "../../imports/image-58.png";
+import conceptGallery2 from "../../imports/image-59.png";
+import conceptGallery3 from "../../imports/image-60.png";
+import conceptGallery4 from "../../imports/image-61.png";
+import conceptGallery5 from "../../imports/image-62.png";
+import conceptGallery6 from "../../imports/image-63.png";
+import conceptGallery7 from "../../imports/image-64.png";
+import conceptGallery8 from "../../imports/image-65.png";
+import conceptGallery9 from "../../imports/image-66.png";
+import conceptGallery10 from "../../imports/image-67.png";
+import iaGallery1 from "../../imports/image-46.png";
+import iaGallery2 from "../../imports/image-47.png";
+import iaGallery3 from "../../imports/image-48.png";
+import iaGallery4 from "../../imports/image-49.png";
+import iaGallery5 from "../../imports/image-50.png";
+import iaGallery6 from "../../imports/image-51.png";
+import iaGallery7 from "../../imports/image-52.png";
+import iaGallery8 from "../../imports/image-53.png";
+import iaGallery9 from "../../imports/image-54.png";
+import iaGallery10 from "../../imports/image-55.png";
 import dffHeroImg from "../../imports/image-22.png";
+import immersiveArtBanner from "../../imports/image-57.png";
+import conceptIdeationBanner from "../../imports/image-69.png";
 
 type CourseDetailData = {
   slug: string;
@@ -48,6 +58,7 @@ const courseDetails: Record<string, CourseDetailData> = {
   "immersive-art-in-vr": {
     slug: "immersive-art-in-vr",
     title: "Immersive Art in VR",
+    bannerImage: immersiveArtBanner,
     tagline:
       "A dynamic three-dimensional environment where students explore and create art using virtual reality tools.",
     description: [
@@ -97,6 +108,7 @@ const courseDetails: Record<string, CourseDetailData> = {
   "concept-ideation-in-vr": {
     slug: "concept-ideation-in-vr",
     title: "Concept Ideation in VR",
+    bannerImage: conceptIdeationBanner,
     tagline: "Hands-on VR sketching and 3D design using industry-standard hardware and software, building spatial reasoning and creative ideation skills.",
     description: [
       "This hands-on course introduces students to the revolutionary world of virtual reality (VR) sketching and 3D design using VR hardware and VR concept ideation software.",
@@ -220,7 +232,7 @@ export function CourseDetail() {
       {/* Banner */}
       <div style={{ animation: "bannerSlideDown 0.55s cubic-bezier(0.22,1,0.36,1) both" }} className="relative h-80 md:h-[420px] overflow-hidden bg-[#003153]">
         <img
-          src="https://images.unsplash.com/photo-1758598303762-56c85bef2496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbW1lcnNpdmUlMjBkaWdpdGFsJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI5NTYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1920"
+          src={course.bannerImage ?? "https://images.unsplash.com/photo-1758598303762-56c85bef2496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbW1lcnNpdmUlMjBkaWdpdGFsJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI5NTYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1920"}
           alt={course.title}
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -341,21 +353,51 @@ export function CourseDetail() {
             {/* Gallery */}
             <section className="mb-16">
               <h2 className={headingClass}>Gallery</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {[conceptGallery1, conceptGallery2, conceptGallery3, conceptGallery4].map((img, i) => (
-                  <div
-                    key={i}
-                    className="w-full rounded-2xl overflow-hidden"
-                    style={{ aspectRatio: "16 / 9" }}
-                  >
-                    <img
-                      src={img}
-                      alt={`Concept Ideation in VR ${i + 1}`}
-                      className="block w-full h-full object-cover"
-                    />
+              <p className="text-[#666666] mb-6 max-w-3xl leading-relaxed">
+                A collection of workshop visuals, VR tools in use, exercise outcomes, and final student works from the Concept and Ideation in VR sessions.
+              </p>
+              {(() => {
+                const galleryImgs = [
+                  conceptGallery1, conceptGallery2, conceptGallery3, conceptGallery4, conceptGallery5,
+                  conceptGallery6, conceptGallery7, conceptGallery8, conceptGallery9, conceptGallery10,
+                ];
+                const reel = [...galleryImgs, ...galleryImgs];
+                return (
+                  <div className="relative w-full overflow-hidden">
+                    <div
+                      className="flex gap-6 ci-scroll-track"
+                      style={{ width: "max-content" }}
+                    >
+                      {reel.map((img, i) => (
+                        <div
+                          key={i}
+                          className="flex-shrink-0 rounded-2xl overflow-hidden bg-gray-100"
+                          style={{ width: 420, aspectRatio: "16 / 9" }}
+                        >
+                          <img
+                            src={img}
+                            alt={`Concept and Ideation in VR ${(i % galleryImgs.length) + 1}`}
+                            className="block w-full h-full object-cover"
+                            draggable={false}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                    <style>{`
+                      @keyframes ciScroll {
+                        0%   { transform: translateX(0); }
+                        100% { transform: translateX(-50%); }
+                      }
+                      .ci-scroll-track {
+                        animation: ciScroll 60s linear infinite;
+                      }
+                      .ci-scroll-track:hover {
+                        animation-play-state: paused;
+                      }
+                    `}</style>
                   </div>
-                ))}
-              </div>
+                );
+              })()}
             </section>
 
             <div className="text-center">
@@ -496,10 +538,10 @@ export function CourseDetail() {
 
         {/* Timeline Image */}
         <section className="mb-16">
-          <h2 className={headingClass}>Timeline</h2>
-          <div className="relative left-1/2 right-1/2 -translate-x-1/2 w-screen">
+          <h2 className={headingClass}>The Process</h2>
+          <div className="w-full">
             <img
-              src={coreImage}
+              src={timelineImmersiveArt}
               alt="Timeline"
               className="w-full h-auto block"
             />
@@ -560,21 +602,48 @@ export function CourseDetail() {
           <p className="text-[#666666] mb-6 max-w-3xl leading-relaxed">
             A collection of workshop visuals, VR tools in use, exercise outcomes, and final student artworks from the Immersive Art in VR sessions.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[iaFinal1, iaFinal2, iaFinal3, iaFinal4, iaFinal5, iaFinal6, iaFinal7, iaFinal8, iaFinal9].map((img, i) => (
-              <div
-                key={i}
-                className="w-full rounded-2xl overflow-hidden bg-gray-100"
-                style={{ aspectRatio: "16 / 9" }}
-              >
-                <img
-                  src={img}
-                  alt={`Immersive Art in VR ${i + 1}`}
-                  className="block w-full h-full object-cover"
-                />
+          {(() => {
+            const galleryImgs = [
+              iaGallery1, iaGallery2, iaGallery3, iaGallery4, iaGallery5,
+              iaGallery6, iaGallery7, iaGallery8, iaGallery9, iaGallery10,
+            ];
+            const reel = [...galleryImgs, ...galleryImgs];
+            return (
+              <div className="relative w-full overflow-hidden">
+                <div
+                  className="flex gap-6 ia-scroll-track"
+                  style={{ width: "max-content" }}
+                >
+                  {reel.map((img, i) => (
+                    <div
+                      key={i}
+                      className="flex-shrink-0 rounded-2xl overflow-hidden bg-gray-100"
+                      style={{ width: 420, aspectRatio: "16 / 9" }}
+                    >
+                      <img
+                        src={img}
+                        alt={`Immersive Art in VR ${(i % galleryImgs.length) + 1}`}
+                        className="block w-full h-full object-cover"
+                        draggable={false}
+                      />
+                    </div>
+                  ))}
+                </div>
+                <style>{`
+                  @keyframes iaScroll {
+                    0%   { transform: translateX(0); }
+                    100% { transform: translateX(-50%); }
+                  }
+                  .ia-scroll-track {
+                    animation: iaScroll 60s linear infinite;
+                  }
+                  .ia-scroll-track:hover {
+                    animation-play-state: paused;
+                  }
+                `}</style>
               </div>
-            ))}
-          </div>
+            );
+          })()}
         </section>
 
         <div className="text-center">

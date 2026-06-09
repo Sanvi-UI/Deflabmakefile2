@@ -22,7 +22,7 @@ export function DefLabLogo({ className = "", height = 48, variant = "default" }:
         x="50"
         y="46"
         textAnchor="middle"
-        fontFamily="'Arial Black', Arial, sans-serif"
+        fontFamily="Inter, sans-serif"
         fontWeight="900"
         fontSize="34"
         fill="#FF6600"
@@ -33,7 +33,7 @@ export function DefLabLogo({ className = "", height = 48, variant = "default" }:
         x="50"
         y="82"
         textAnchor="middle"
-        fontFamily="'Arial Black', Arial, sans-serif"
+        fontFamily="Inter, sans-serif"
         fontWeight="900"
         fontSize="34"
         fill={labColor}

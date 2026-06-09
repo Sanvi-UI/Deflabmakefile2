@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Handshake, GraduationCap, ExternalLink, Info, MessageSquare } from "lucide-react";
 import { useState } from "react";
 import { PageHeader } from "../components/PageHeader";
 
@@ -40,7 +40,7 @@ export function Contact() {
             {/* Info Cards */}
             <div className="space-y-4">
               {/* Email */}
-              <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 shadow-md hover:shadow-lg transition-all">
+              <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#FF6600]/10 rounded-lg">
                     <Mail className="w-6 h-6 text-[#FF6600]" />
@@ -49,7 +49,7 @@ export function Contact() {
                     <h3 className="text-lg text-[#003153] mb-2">Email</h3>
                     <a
                       href="mailto:mobilityvehicledesigniitb@gmail.com"
-                      className="text-[#666666] hover:text-[#FF6600] transition-colors break-all"
+                      className="text-sm text-[#666666] hover:text-[#FF6600] transition-colors break-all"
                     >
                       mobilityvehicledesigniitb@gmail.com
                     </a>
@@ -58,16 +58,16 @@ export function Contact() {
               </div>
 
               {/* Phone */}
-              <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 shadow-md hover:shadow-lg transition-all">
+              <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 transition-all">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-[#7DF9FF]/20 rounded-lg">
-                    <Phone className="w-6 h-6 text-[#003153]" />
+                  <div className="p-3 bg-[#FF6600]/10 rounded-lg">
+                    <Phone className="w-6 h-6 text-[#FF6600]" />
                   </div>
                   <div>
                     <h3 className="text-lg text-[#003153] mb-2">Phone</h3>
                     <a
                       href="tel:+919864801504"
-                      className="text-[#666666] hover:text-[#FF6600] transition-colors"
+                      className="text-sm text-[#666666] hover:text-[#FF6600] transition-colors"
                     >
                       +91 98648 01504
                     </a>
@@ -76,18 +76,18 @@ export function Contact() {
               </div>
 
               {/* Address */}
-              <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 shadow-md hover:shadow-lg transition-all">
+              <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 transition-all">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-[#003153]/10 rounded-lg">
-                    <MapPin className="w-6 h-6 text-[#003153]" />
+                  <div className="p-3 bg-[#FF6600]/10 rounded-lg">
+                    <MapPin className="w-6 h-6 text-[#FF6600]" />
                   </div>
                   <div>
                     <h3 className="text-lg text-[#003153] mb-2">Location</h3>
-                    <p className="text-[#666666]">
+                    <p className="text-sm text-[#666666]">
                       DeF Lab - Design for Future Lab<br />
-                      Indian Institute of Technology Bombay<br />
-                      Powai, Mumbai 400076<br />
-                      Maharashtra, India
+                      Innovation Centre, IDC School of Design<br />
+                      Ground Floor, Lab No. G 006, IIT Bombay<br />
+                      Powai, Mumbai, Maharashtra 400076
                     </p>
                   </div>
                 </div>
@@ -108,18 +108,24 @@ export function Contact() {
                 </div>
                 <div className="flex justify-between">
                   <span>Sunday</span>
-                  <span>Closed</span>
+                  <span className="text-[#FF6600]">Closed</span>
                 </div>
               </div>
-              <p className="text-sm text-gray-300 mt-4">
-                * Please schedule an appointment for lab visits
-              </p>
+              <div className="flex items-center gap-2 text-sm text-gray-300 mt-4">
+                <Info className="w-4 h-4 flex-shrink-0 text-[#FF6600]" />
+                <span>Please schedule an appointment for lab visits</span>
+              </div>
             </div>
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white rounded-xl border border-gray-200 shadow-md p-8">
-            <h2 className="text-2xl text-[#003153] mb-6">Send us a Message</h2>
+          <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-8">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="p-3 bg-[#FF6600]/10 rounded-lg flex-shrink-0">
+                <MessageSquare className="w-6 h-6 text-[#FF6600]" />
+              </div>
+              <h2 className="text-2xl text-[#003153]">Send us a Message</h2>
+            </div>
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name */}
               <div>
@@ -133,7 +139,7 @@ export function Contact() {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6600] focus:border-transparent"
+                  className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6600] focus:border-transparent"
                   placeholder="Your name"
                 />
               </div>
@@ -150,7 +156,7 @@ export function Contact() {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6600] focus:border-transparent"
+                  className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6600] focus:border-transparent"
                   placeholder="your.email@example.com"
                 />
               </div>
@@ -166,7 +172,7 @@ export function Contact() {
                   required
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6600] focus:border-transparent"
+                  className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6600] focus:border-transparent"
                 >
                   <option value="">Select a subject</option>
                   <option value="research">Research Collaboration</option>
@@ -189,7 +195,7 @@ export function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6600] focus:border-transparent resize-none"
+                  className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6600] focus:border-transparent resize-none"
                   placeholder="Your message..."
                 />
               </div>
@@ -211,7 +217,7 @@ export function Contact() {
           <div className="aspect-video rounded-2xl overflow-hidden border border-gray-200 shadow-lg">
             <iframe
               title="DeF Lab, IIT Bombay location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5443496540224!2d72.91375497594!3d19.133914150090217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7f5bbccbb3d%3A0xf1d1d5e9b05f52b3!2sIDC%20School%20of%20Design%2C%20IIT%20Bombay!5e0!3m2!1sen!2sin!4v1700000000000"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5443496540224!2d72.91375497594!3d19.133914150090217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7f5e1e5b0c1%3A0x2f4b6e5f9a0c4d7e!2sRahul%20Bajaj%20Technology%20Innovation%20Centre%2C%20IDC%20School%20of%20Design%2C%20IIT%20Bombay!5e0!3m2!1sen!2sin!4v1700000000000"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -220,9 +226,59 @@ export function Contact() {
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          <p className="text-center text-sm text-[#666666] mt-4">
-            DeF Lab is located within the IIT Bombay campus in Powai, Mumbai
-          </p>
+          <p className="text-center text-sm text-[#666666] mt-4">Innovation Centre, IDC School of Design, Ground Floor, Lab No. G 006, IIT Bombay, Powai, Mumbai 400076</p>
+        </div>
+
+        {/* Work with Us + Internship */}
+        <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+          {/* Work with Us */}
+          <div className="flex flex-col h-full bg-gradient-to-br from-white to-gray-50 rounded-2xl border border-gray-200 p-8 transition-all">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#FF6600]/10 rounded-lg flex-shrink-0">
+                <Handshake className="w-6 h-6 text-[#FF6600]" />
+              </div>
+              <h2 className="text-2xl text-[#003153]">Work with Us</h2>
+            </div>
+            <div className="w-12 h-0.5 bg-[#FF6600] mb-4" />
+            <p className="text-sm text-[#666666] leading-relaxed flex-1">
+              For queries related to potential collaborations or research opportunities, drop an email to us directly.
+            </p>
+            <a
+              href="mailto:mobilityvehicledesigniitb@gmail.com"
+              className="mt-auto self-start inline-flex items-center gap-2 px-4 py-2.5 bg-[#FF6600]/10 text-[#FF6600] text-sm rounded-lg hover:bg-[#FF6600]/20 transition-colors whitespace-nowrap"
+            >
+              <Mail className="w-4 h-4 flex-shrink-0" />
+              mobilityvehicledesigniitb@gmail.com
+            </a>
+          </div>
+
+          {/* Internship */}
+          <div className="flex flex-col h-full bg-gradient-to-br from-[#003153] to-[#003153]/90 rounded-2xl p-8 transition-all">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#FF6600] rounded-lg flex-shrink-0">
+                <GraduationCap className="w-6 h-6 text-white" />
+              </div>
+              <h2 className="text-2xl text-white">Internship at DeF Lab</h2>
+            </div>
+            <div className="w-12 h-0.5 bg-[#FF6600] mb-4" />
+            <div className="space-y-4 text-gray-300 leading-relaxed text-sm flex-1 mb-6">
+              <p>
+                Each year, we accept a select number of intern students based on the ongoing projects in the lab. Prospective intern students may reach out to us through email.
+              </p>
+              <p>
+                One of the options to apply is through the <span className="text-white">IIT Bombay Research Internship Awards</span> program. Interns get the opportunity to work with us during the Spring Semester (January to July). Applications typically open around August to September.
+              </p>
+            </div>
+            <a
+              href="https://www.iitb.ac.in/en/education/internship-programmes"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-auto self-start inline-flex items-center gap-2 px-4 py-2.5 bg-[#FF6600] text-white rounded-lg hover:bg-[#FF6600]/80 transition-colors text-sm whitespace-nowrap"
+            >
+              <ExternalLink className="w-4 h-4 flex-shrink-0" />
+              Internship Programmes at IITB
+            </a>
+          </div>
         </div>
       </div>
     </div>

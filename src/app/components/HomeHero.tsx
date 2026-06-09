@@ -7,10 +7,26 @@ const heroImage =
 export function HomeHero() {
   return (
     <section className="relative w-full h-screen min-h-[640px] overflow-hidden">
+      <style>{`
+        @keyframes heroFadeUp {
+          0%   { opacity: 0; transform: translateY(36px); }
+          100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes heroScale {
+          0%   { opacity: 0; transform: scale(1.06); }
+          100% { opacity: 1; transform: scale(1); }
+        }
+        .hero-img  { animation: heroScale  1.4s cubic-bezier(0.22,1,0.36,1) 0s   both; }
+        .hero-tag  { animation: heroFadeUp 0.7s cubic-bezier(0.22,1,0.36,1) 0.2s both; }
+        .hero-h1   { animation: heroFadeUp 0.7s cubic-bezier(0.22,1,0.36,1) 0.4s both; }
+        .hero-p    { animation: heroFadeUp 0.7s cubic-bezier(0.22,1,0.36,1) 0.6s both; }
+        .hero-btns { animation: heroFadeUp 0.7s cubic-bezier(0.22,1,0.36,1) 0.8s both; }
+        .hero-scroll { animation: heroFadeUp 0.7s cubic-bezier(0.22,1,0.36,1) 1.1s both; }
+      `}</style>
       <img
         src={heroImage}
         alt="Immersive VR experience at DeF Lab"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="hero-img absolute inset-0 w-full h-full object-cover"
       />
       <div
         className="absolute inset-0"
@@ -27,13 +43,13 @@ export function HomeHero() {
       <div className="relative z-10 h-full max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex items-center">
         <div className="max-w-3xl text-white">
           <span
-            className="inline-block uppercase mb-6 text-[#FFB380]"
-            style={{ letterSpacing: "0.32em", fontSize: "13px", fontWeight: 500 }}
+            className="hero-tag inline-block uppercase mb-6 text-[#FFB380]"
+            style={{ letterSpacing: "0.32em", fontSize: "15px", fontWeight: 500 }}
           >
             Design for Future Lab
           </span>
           <h1
-            className="text-white mb-6"
+            className="hero-h1 text-white mb-6"
             style={{
               fontSize: "clamp(36px, 5vw, 60px)",
               lineHeight: 1.1,
@@ -46,13 +62,13 @@ export function HomeHero() {
             Innovation
           </h1>
           <p
-            className="mb-10 text-white/90 max-w-xl"
+            className="hero-p mb-10 text-white/90 max-w-xl"
             style={{ fontSize: "18px", lineHeight: 1.65 }}
           >
             A research space at IIT Bombay exploring VR, immersive simulations,
             digital prototyping, and the next generation of mobility design.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="hero-btns flex flex-wrap gap-4">
             <Link
               to="/facilities"
               className="inline-flex items-center gap-2 bg-[#FF6600] hover:bg-[#e65c00] text-white px-7 h-[52px] rounded-[10px] shadow-lg transition-colors"
@@ -71,7 +87,7 @@ export function HomeHero() {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-white/70 text-xs uppercase tracking-[0.3em] hidden sm:block">
+      <div className="hero-scroll absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-white/70 text-xs uppercase tracking-[0.3em] hidden sm:block">
         Scroll
       </div>
     </section>

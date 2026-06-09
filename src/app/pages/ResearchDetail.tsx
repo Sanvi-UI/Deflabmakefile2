@@ -16,6 +16,35 @@ import piyushHero from "@/imports/image-36.png";
 import piyushImg2 from "@/imports/image-37.png";
 import piyushImg3 from "@/imports/image-38.png";
 import piyushImg4 from "@/imports/image-39.png";
+import creativeImg1 from "@/imports/image-81.png";
+import creativeImg2 from "@/imports/image-82.png";
+import creativeImg3 from "@/imports/image-83.png";
+import creativeImg4 from "@/imports/image-84.png";
+import creativeBanner from "@/imports/image-85.png";
+import impossibleImg1 from "@/imports/image-86.png";
+import impossibleImg2 from "@/imports/image-87.png";
+import impossibleImg3 from "@/imports/image-88.png";
+import impossibleImg4 from "@/imports/image-89.png";
+import vtolImg1 from "@/imports/image-90.png";
+import vtolImg2 from "@/imports/image-91.png";
+import vtolImg3 from "@/imports/image-92.png";
+import vtolImg4 from "@/imports/image-93.png";
+import vtolImg5 from "@/imports/image-94.png";
+import vtolImg6 from "@/imports/image-95.png";
+import vtolBanner from "@/imports/image-96.png";
+import impossibleBanner from "@/imports/image-97.png";
+import snehaLocalBanner from "../../imports/image-105.png";
+import ryoImg1 from "../../imports/image-106.png";
+import ryoImg2 from "../../imports/image-107.png";
+import ryoImg3 from "../../imports/image-108.png";
+import ryoImg4 from "../../imports/image-109.png";
+import ryoBanner from "../../imports/image-110.png";
+import snehaImg1 from "@/imports/image-98.png";
+import snehaImg2 from "@/imports/image-99.png";
+import snehaImg3 from "@/imports/image-100.png";
+import snehaImg4 from "@/imports/image-101.png";
+import snehaImg5 from "@/imports/image-102.png";
+import snehaImg6 from "@/imports/image-103.png";
 
 export function ResearchDetail() {
   const { id } = useParams();
@@ -89,7 +118,9 @@ export function ResearchDetail() {
       duration: "7 weeks",
       category: "Mobility",
       description: "This project focuses on designing a compact electric Vertical Take-Off and Landing (eVTOL) vehicle intended to address the growing challenges of urban transportation, traffic congestion, and increasing travel times in densely populated cities. Through extensive research on transportation infrastructure, urban mobility patterns, existing eVTOL technologies, and aviation design principles, the project investigates the potential of personal aerial mobility as an efficient alternative to conventional road-based commuting. The study examines current developments in the eVTOL industry, analyzes existing aircraft configurations, and identifies opportunities for creating a vehicle that combines compactness, efficiency, safety, and user accessibility. Particular attention is given to the needs of modern urban professionals who require faster travel options while maintaining flexibility for both intra-city and intercity journeys.\n\nThe design process incorporates user research, market analysis, aviation ergonomics, pilot-orientation studies, and form exploration using advanced visualization techniques, including VR sketching and digital modeling. The final concept proposes a low-altitude, single-seater personal eVTOL vehicle capable of vertical take-off and landing while maintaining stable flight performance and a compact footprint for convenient parking and storage. The project emphasizes ease of operation for individuals without formal pilot training, making personal air mobility more accessible to a broader audience. By integrating futuristic transportation technologies with human-centered design principles, the proposed solution aims to reduce dependency on congested road networks, shorten commuting times, and provide a practical vision for the future of sustainable urban transportation. The project ultimately demonstrates how emerging aviation technologies can be leveraged to create innovative mobility solutions that enhance efficiency, convenience, and quality of life in rapidly urbanizing environments.",
-      bannerImage: "https://images.unsplash.com/photo-1676193672216-c3df9cda6b41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxWVE9MJTIwYWlyY3JhZnQlMjB1cmJhbiUyMGRlc2lnbnxlbnwxfHx8fDE3NzI5NjQ3NjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      bannerImage: "",
+      localBannerImage: vtolBanner,
+      galleryImages: [vtolImg5, vtolImg6, vtolImg1, vtolImg2, vtolImg3, vtolImg4],
     },
     {
       id: "gesture-game-immersive-ads",
@@ -99,7 +130,9 @@ export function ResearchDetail() {
       duration: "5 weeks",
       category: "Interaction Design",
       description: "This project explores the potential of gesture-based interactive gaming as a tool for immersive advertising in Indian urban spaces. A 3D space-themed game was designed and developed using Unity and Python with MediaPipe-based hand gesture recognition, enabling users to interact through natural gestures such as bursting enemies and saving astronauts. Inspired by successful global advergaming campaigns, the project investigates how interactive public installations can transform traditional passive advertising into engaging, participatory experiences. The system was designed for deployment in high-footfall public environments such as malls, transit hubs, and urban plazas, where it can attract attention, encourage active participation, and improve message recall. Through user testing and evaluation, the research examined the effectiveness of gesture-controlled gameplay in enhancing audience engagement, emotional connection, and overall interaction quality, while demonstrating the potential of game-based experiences as innovative advertising solutions for urban India.",
-      bannerImage: "https://images.unsplash.com/photo-1727846990874-a0e0503d9dde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZXN0dXJlJTIwYmFzZWQlMjBnYW1pbmclMjBpbnRlcmFjdGlvbnxlbnwxfHx8fDE3NzI5NjQ3NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      bannerImage: "",
+      localBannerImage: snehaLocalBanner,
+      galleryImages: [snehaImg2, snehaImg3, snehaImg4, snehaImg6],
     },
     {
       id: "interactive-website-contact-points",
@@ -109,7 +142,9 @@ export function ResearchDetail() {
       duration: "-",
       category: "Interaction Design",
       description: "This project explores the relationship between digital information, the human body, and the surrounding environment through an interactive web-based experience. As internet-connected devices such as smartphones and laptops have become an integral part of everyday life, people increasingly rely on digital information to make decisions and interact with the world. The project investigates how information, which is often invisible and exists as digital data, can be transformed into a tangible and bodily experience. Through extensive research on internet and smartphone usage, the researcher examined how individuals continuously engage with information through screens in both private and public spaces.\n\nThe outcome of the project is an interactive website inspired by the poem \"Put Your Hands Up to the Sun.\" The website encourages users to take their smartphone screen into sunlight, where the display gradually turns red, evoking the experience of seeing blood flow through a hand illuminated by sunlight. By combining the smartphone, the user's body, and natural environmental elements such as the sun, the project creates a unique sensory interaction that raises awareness of the connection between digital media and physical existence. The work encourages users to reflect on how technology mediates their perception of the world while simultaneously reconnecting them with their own bodies and immediate surroundings. Ultimately, the project presents an artistic and experiential approach to understanding the invisible relationship between information, technology, human perception, and environmental interaction.",
-      bannerImage: "https://images.unsplash.com/photo-1657812159077-90649115008c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnRlcmFjdGl2ZSUyMHdlYiUyMGRlc2lnbiUyMGVudmlyb25tZW50fGVufDF8fHx8MTc3Mjk2NDc2Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      bannerImage: "",
+      localBannerImage: ryoBanner,
+      galleryImages: [ryoImg1, ryoImg2, ryoImg3, ryoImg4],
     },
     {
       id: "exploring-creative-acts-misuse",
@@ -119,7 +154,9 @@ export function ResearchDetail() {
       duration: "-",
       category: "Interaction Design",
       description: "This project investigates how the intentional misuse of technology can become a catalyst for creative expression and artistic innovation. Inspired by historical examples such as turntable scratching, circuit bending, and other unconventional technological practices, the research explores how digital systems can be repurposed beyond their intended functions to reveal unexpected behaviors and generate novel forms of interaction. The study specifically focuses on black-box technologies such as iPhone text-recognition systems and camera smile-detection algorithms, examining how their limitations, biases, and recognition patterns can be transformed into creative tools. Through a series of experimental interventions, the researcher analyzed how these systems respond to manipulated visual inputs, abstract imagery, and deliberately misleading designs.\n\nTo support this investigation, a custom iPhone Text Recognition (I2T) Simulator was developed using Swift and Xcode, enabling large-scale testing of image-recognition behavior. Thousands of generated images, abstract facial representations, Bezier-curve drawings, and visual compositions were processed to provoke algorithmic misrecognition. The findings revealed that machine-vision systems often identify patterns and meanings where humans perceive none, exposing hidden biases embedded within recognition algorithms. By leveraging these unexpected outcomes, the project demonstrates how technological misuse can serve as a medium for artistic exploration, encouraging new ways of understanding the relationship between human perception, machine intelligence, and creative design. Ultimately, the work highlights how errors, glitches, and misrecognitions can become valuable resources for innovation and experimental visual expression.",
-      bannerImage: "https://images.unsplash.com/photo-1617004574627-d3bd7fb4a71a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGFydCUyMG1pc3VzZSUyMGNvbmNlcHR8ZW58MXx8fHwxNzcyOTY0NzY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      bannerImage: "",
+      localBannerImage: creativeBanner,
+      galleryImages: [creativeImg1, creativeImg3, creativeImg2, creativeImg4],
     },
     {
       id: "impossible-worlds-vr",
@@ -129,7 +166,9 @@ export function ResearchDetail() {
       duration: "-",
       category: "VR",
       description: "This project explores how virtual reality can transform static works of art into immersive and interactive experiences by reimagining M.C. Escher's famous artwork Relativity as a navigable virtual world. The research investigates the potential of VR to create paradoxical environments that challenge conventional understandings of space, gravity, and movement. Inspired by Escher's impossible architecture, the project enables users to step inside a world of interconnected staircases, looping pathways, and gravity-defying structures that would be impossible to experience in the physical world. By combining artistic inspiration with advanced digital technologies, the project seeks to understand how immersive environments can alter human perception and create entirely new forms of spatial exploration.\n\nThe development process involved creating optimized low-poly 3D assets using Autodesk Maya, applying detailed textures through Adobe Substance Painter, and assembling the complete environment in Unreal Engine 5. A custom teleportation door system was designed and implemented using Unreal Engine Blueprints, allowing users to move seamlessly between different areas and experience non-Euclidean spatial relationships. Additional interactive elements such as animated staircases, smooth locomotion systems, and spatial navigation mechanics were integrated to enhance immersion and usability. User testing focused on understanding how individuals react to environments that deliberately challenge their expectations of reality and spatial logic. The final outcome demonstrates how virtual reality can bridge the gap between traditional art and interactive technology, creating engaging experiences that encourage curiosity, exploration, and deeper reflection on the nature of perception, architecture, and human cognition.",
-      bannerImage: "https://images.unsplash.com/photo-1617004574627-d3bd7fb4a71a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGFydCUyMG1pc3VzZSUyMGNvbmNlcHR8ZW58MXx8fHwxNzcyOTY0NzY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      bannerImage: "",
+      localBannerImage: impossibleBanner,
+      galleryImages: [impossibleImg1, impossibleImg2, impossibleImg3, impossibleImg4],
     },
     {
       id: "acrylic-panel-floating-depth",
@@ -212,12 +251,12 @@ export function ResearchDetail() {
               {(project as any).shortTitle ?? project.title}
             </h1>
 
-            {/* Info List - Duration, Professor, Researcher */}
+            {/* Info List - Researcher, Professor, Duration */}
             <div className="space-y-6">
-              {/* Duration */}
+              {/* Researcher */}
               <div>
-                <p className="text-sm text-[#666666] mb-1">Duration</p>
-                <p className="text-lg text-[#003153]">{project.duration}</p>
+                <p className="text-sm text-[#666666] mb-1">Researcher</p>
+                <p className="text-lg text-[#003153]">{project.researcher}</p>
               </div>
 
               {/* Professor */}
@@ -230,10 +269,10 @@ export function ResearchDetail() {
                 </div>
               </div>
 
-              {/* Researcher */}
+              {/* Duration */}
               <div>
-                <p className="text-sm text-[#666666] mb-1">Researcher</p>
-                <p className="text-lg text-[#003153]">{project.researcher}</p>
+                <p className="text-sm text-[#666666] mb-1">Duration</p>
+                <p className="text-lg text-[#003153]">{project.duration}</p>
               </div>
             </div>
           </div>
