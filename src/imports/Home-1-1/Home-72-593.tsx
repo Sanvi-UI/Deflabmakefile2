@@ -856,7 +856,7 @@ function Container36() {
   const row1 = [...row1imgs, ...row1imgs];
   const row2 = [...row2imgs, ...row2imgs];
   return (
-    <div className="absolute left-0 top-[222px] w-[1101px] overflow-hidden flex flex-col gap-[20px]">
+    <div className="absolute left-[calc(50%-50vw)] top-[222px] w-[100vw] overflow-hidden flex flex-col gap-[20px]">
       <style>{`
         @keyframes lab-ltr {
           from { transform: translateX(-50%); }
