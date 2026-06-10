@@ -433,7 +433,7 @@ function Container12() {
 function Section1() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="relative bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] content-stretch flex flex-col gap-[48px] h-auto items-start left-0 px-[32px] w-full" data-name="Section">
+    <div ref={ref} className="relative content-stretch flex flex-col gap-[48px] h-auto items-start left-0 px-[32px] w-full" data-name="Section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Container4 /></div>
       <div style={popStyle(visible, '0.2s')} className="shrink-0 w-full"><Container12 /></div>
     </div>
@@ -892,7 +892,7 @@ function Container36() {
 function Section3() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="relative bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] h-auto left-0 w-full min-h-[669px]" data-name="Section">
+    <div ref={ref} className="relative h-auto left-0 w-full min-h-[669px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container34 /></div>
       <Container36 />
     </div>
@@ -1282,19 +1282,27 @@ function Section5() {
 
 function MainContent() {
   return (
-    <div className="relative shrink-0 w-[1101px] flex flex-col gap-[80px] py-[80px]" data-name="Main Content">
+    <div className="relative shrink-0 w-[1101px] flex flex-col" data-name="Main Content">
       <style>{`
         @keyframes defPopUp {
           0%   { opacity: 0; transform: translateY(28px) scale(0.96); }
           100% { opacity: 1; transform: translateY(0)    scale(1); }
         }
       `}</style>
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full flex flex-col gap-[80px] items-center">
-        <Section2 />
-        <Section1 />
-        <Section3 />
-        <Section />
-        <Section4 />
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full flex flex-col items-center">
+        <div className="w-full flex flex-col items-center pt-[80px] pb-[40px]">
+          <Section2 />
+        </div>
+        
+        <div className="w-full flex flex-col items-center gap-[80px] py-[40px] bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)]">
+          <Section1 />
+          <Section3 />
+        </div>
+        
+        <div className="w-full flex flex-col items-center gap-[80px] pt-[40px] pb-[80px]">
+          <Section />
+          <Section4 />
+        </div>
       </div>
     </div>
   );
