@@ -433,7 +433,7 @@ function Container12() {
 function Section1() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-[#f9fafb] before:absolute before:inset-y-0 before:left-[calc(50%-50vw)] before:w-[100vw] before:bg-[#f9fafb] before:-z-10 content-stretch flex flex-col gap-[48px] h-[445px] items-start left-0 px-[32px] top-[542px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="absolute bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] content-stretch flex flex-col gap-[48px] h-[445px] items-start left-0 px-[32px] top-[542px] w-[1101px]" data-name="Section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Container4 /></div>
       <div style={popStyle(visible, '0.2s')} className="shrink-0 w-full"><Container12 /></div>
     </div>
@@ -892,7 +892,7 @@ function Container36() {
 function Section3() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-[#f9fafb] before:absolute before:inset-y-0 before:left-[calc(50%-50vw)] before:w-[100vw] before:bg-[#f9fafb] before:-z-10 h-[669px] left-0 top-[987px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="absolute bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] h-[669px] left-0 top-[987px] w-[1101px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container34 /></div>
       <Container36 />
     </div>
