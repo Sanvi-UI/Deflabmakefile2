@@ -103,7 +103,7 @@ function Div1() {
 function Section() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-white content-stretch flex flex-col h-[402px] items-start left-0 pb-px pt-[64px] px-[38.5px] top-[1656px] w-[1101px]" data-name="section">
+    <div ref={ref} className="relative bg-white content-stretch flex flex-col h-auto items-start left-0 px-[38.5px] w-full" data-name="section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Div1 /></div>
     </div>
   );
@@ -433,7 +433,7 @@ function Container12() {
 function Section1() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] content-stretch flex flex-col gap-[48px] h-[445px] items-start left-0 px-[32px] top-[542px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="relative bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] content-stretch flex flex-col gap-[48px] h-auto items-start left-0 px-[32px] w-full" data-name="Section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Container4 /></div>
       <div style={popStyle(visible, '0.2s')} className="shrink-0 w-full"><Container12 /></div>
     </div>
@@ -713,7 +713,7 @@ function Container27({ visible }: { visible: boolean }) {
 function Section2() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-white content-stretch flex flex-col gap-[48px] h-[542px] items-start left-0 pt-[80px] px-[32px] top-[0px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="relative bg-white content-stretch flex flex-col gap-[48px] h-auto items-start left-0 px-[32px] w-full" data-name="Section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Container25 /></div>
       <Container27 visible={visible} />
     </div>
@@ -892,7 +892,7 @@ function Container36() {
 function Section3() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] h-[669px] left-0 top-[987px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="relative bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] h-auto left-0 w-full min-h-[669px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container34 /></div>
       <Container36 />
     </div>
@@ -1133,7 +1133,7 @@ function Link() {
 function Section4() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-white h-[634px] left-0 top-[2058px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="relative bg-white h-auto left-0 w-full min-h-[634px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container43 /></div>
       <Container45 visible={visible} />
       <div style={popStyle(visible, '0.45s')}><Link /></div>
@@ -1282,18 +1282,18 @@ function Section5() {
 
 function MainContent() {
   return (
-    <div className="h-[2692px] relative shrink-0 w-[1101px]" data-name="Main Content">
+    <div className="relative shrink-0 w-[1101px] flex flex-col gap-[80px] py-[80px]" data-name="Main Content">
       <style>{`
         @keyframes defPopUp {
           0%   { opacity: 0; transform: translateY(28px) scale(0.96); }
           100% { opacity: 1; transform: translateY(0)    scale(1); }
         }
       `}</style>
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <Section />
-        <Section1 />
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full flex flex-col gap-[80px] items-center">
         <Section2 />
+        <Section1 />
         <Section3 />
+        <Section />
         <Section4 />
       </div>
     </div>
@@ -1538,7 +1538,7 @@ function Footer() {
 
 function Div() {
   return (
-    <div className="relative bg-white content-stretch flex flex-col items-start w-[1101px]" data-name="div">
+    <div className="relative bg-white content-stretch flex flex-col items-center w-full" data-name="div">
       <MainContent />
     </div>
   );
