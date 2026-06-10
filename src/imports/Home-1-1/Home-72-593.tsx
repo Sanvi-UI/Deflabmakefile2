@@ -34,16 +34,16 @@ function popStyle(visible: boolean, delay = '0s'): CSSProperties {
 
 function Container() {
   return (
-    <div className="absolute h-[24px] left-0 top-0 w-[1024px]" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-[512.99px] not-italic text-[#f60] text-center top-[1.5px] tracking-[0.5496px] uppercase whitespace-nowrap text-[15px]">Our Mission</p>
+    <div className="absolute h-[24px] left-0 top-0 w-full" data-name="Container">
+      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-1/2 not-italic text-[#f60] text-center top-[1.5px] tracking-[0.5496px] uppercase whitespace-nowrap text-[15px]">Our Mission</p>
     </div>
   );
 }
 
 function H1() {
   return (
-    <div className="absolute h-[48px] left-0 top-0 w-[1024px]" data-name="h2">
-      <p className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[48px] left-[512.17px] not-italic text-[#003153] text-center top-[0.5px] tracking-[0.3516px] whitespace-nowrap text-[40px]">What We Believe In</p>
+    <div className="absolute h-[48px] left-0 top-0 w-full" data-name="h2">
+      <p className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[48px] left-1/2 not-italic text-[#003153] text-center top-[0.5px] tracking-[0.3516px] whitespace-nowrap text-[40px]">What We Believe In</p>
     </div>
   );
 }
@@ -54,7 +54,7 @@ function Container2() {
 
 function Container1() {
   return (
-    <div className="absolute h-[60px] left-0 top-[40px] w-[1024px]" data-name="Container">
+    <div className="absolute h-[60px] left-0 top-[40px] w-full" data-name="Container">
       <H1 />
       <Container2 />
     </div>
@@ -64,7 +64,7 @@ function Container1() {
 function P() {
   return (
     <div className="h-[39px] relative shrink-0 w-full" data-name="p">
-      <div className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[0] left-[512.99px] not-italic text-[#003153] text-[24px] text-center top-[0.5px] tracking-[0.0703px] whitespace-nowrap">
+      <div className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[0] left-1/2 not-italic text-[#003153] text-[24px] text-center top-[0.5px] tracking-[0.0703px] whitespace-nowrap">
         <p className="leading-[39px] mb-0 text-[20px]">Design for Future (DeF) lab is envisioned to create visions for new design solutions</p>
         <p className="mb-0 text-[20px]">
           <span className="leading-[39px]">{`that contribute to the `}</span>
@@ -84,7 +84,7 @@ function P() {
 
 function Container3() {
   return (
-    <div className="absolute content-stretch flex flex-col h-[141px] items-start left-[0.5px] top-[116px] w-[1024px]" data-name="Container">
+    <div className="absolute content-stretch flex flex-col h-[141px] items-start left-[0.5px] top-[116px] w-full" data-name="Container">
       <P />
     </div>
   );
@@ -103,7 +103,7 @@ function Div1() {
 function Section() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-white content-stretch flex flex-col h-[402px] items-start left-0 pb-px pt-[64px] px-[38.5px] top-[1656px] w-[1101px]" data-name="section">
+    <div ref={ref} className="absolute bg-white content-stretch flex flex-col h-[402px] items-start left-0 pb-px pt-[64px] px-[38.5px] top-[1656px] w-full px-[5vw]" data-name="section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Div1 /></div>
     </div>
   );
@@ -433,7 +433,7 @@ function Container12() {
 function Section1() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] content-stretch flex flex-col gap-[48px] h-[445px] items-start left-0 px-[32px] top-[542px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="absolute bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] content-stretch flex flex-col gap-[48px] h-[445px] items-start left-0 px-[32px] top-[542px] w-full px-[5vw]" data-name="Section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Container4 /></div>
       <div style={popStyle(visible, '0.2s')} className="shrink-0 w-full"><Container12 /></div>
     </div>
@@ -443,7 +443,7 @@ function Section1() {
 function Container26() {
   return (
     <div className="h-[24px] relative shrink-0 w-full" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] leading-[20px] left-[519.34px] not-italic text-[#f60] text-center top-[1.5px] tracking-[0.5496px] uppercase whitespace-nowrap text-[15px]">What We Do</p>
+      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] leading-[20px] left-1/2 not-italic text-[#f60] text-center top-[1.5px] tracking-[0.5496px] uppercase whitespace-nowrap text-[15px]">What We Do</p>
     </div>
   );
 }
@@ -451,7 +451,7 @@ function Container26() {
 function H3() {
   return (
     <div className="h-[40px] relative shrink-0 w-full" data-name="h2">
-      <p className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[40px] left-[518.73px] not-italic text-[#003153] text-center top-[0.5px] tracking-[0.3691px] whitespace-nowrap text-[40px]">DeF lab offers three main facilities</p>
+      <p className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[40px] left-1/2 not-italic text-[#003153] text-center top-[0.5px] tracking-[0.3691px] whitespace-nowrap text-[40px]">DeF lab offers three main facilities</p>
     </div>
   );
 }
@@ -533,7 +533,7 @@ function P11() {
 
 function Container28({ extraStyle }: { extraStyle?: CSSProperties }) {
   return (
-    <div style={extraStyle} className="absolute bg-white border border-[#e5e7eb] border-solid h-[254px] left-0 rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] top-0 w-[324.328px]" data-name="Container">
+    <div style={extraStyle} className="relative bg-white border border-[#e5e7eb] border-solid h-[254px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] w-[324px] max-w-[30vw]" data-name="Container">
       <Container29 />
       <H4 />
       <P11 />
@@ -644,7 +644,7 @@ function P12() {
 
 function Container30({ extraStyle }: { extraStyle?: CSSProperties }) {
   return (
-    <div style={extraStyle} className="absolute bg-white border border-[#e5e7eb] border-solid h-[254px] left-[356.33px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] top-0 w-[324.336px]" data-name="Container">
+    <div style={extraStyle} className="relative bg-white border border-[#e5e7eb] border-solid h-[254px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] w-[324px] max-w-[30vw]" data-name="Container">
       <Container31 />
       <H5 />
       <P12 />
@@ -692,7 +692,7 @@ function P13() {
 
 function Container32({ extraStyle }: { extraStyle?: CSSProperties }) {
   return (
-    <div style={extraStyle} className="absolute bg-white border border-[#e5e7eb] border-solid h-[254px] left-[712.66px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] top-0 w-[324.336px]" data-name="Container">
+    <div style={extraStyle} className="relative bg-white border border-[#e5e7eb] border-solid h-[254px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] w-[324px] max-w-[30vw]" data-name="Container">
       <Container33 />
       <H6 />
       <P13 />
@@ -702,7 +702,7 @@ function Container32({ extraStyle }: { extraStyle?: CSSProperties }) {
 
 function Container27({ visible }: { visible: boolean }) {
   return (
-    <div className="h-[254px] relative shrink-0 w-full" data-name="Container">
+    <div className="h-[254px] relative shrink-0 w-full flex justify-between gap-[20px]" data-name="Container">
       <Container28 extraStyle={popStyle(visible, '0.15s')} />
       <Container30 extraStyle={popStyle(visible, '0.27s')} />
       <Container32 extraStyle={popStyle(visible, '0.39s')} />
@@ -713,7 +713,7 @@ function Container27({ visible }: { visible: boolean }) {
 function Section2() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-white content-stretch flex flex-col gap-[48px] h-[542px] items-start left-0 pt-[80px] px-[32px] top-[0px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="absolute bg-white content-stretch flex flex-col gap-[48px] h-[542px] items-start left-0 pt-[80px] px-[32px] top-[0px] w-full px-[5vw]" data-name="Section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Container25 /></div>
       <Container27 visible={visible} />
     </div>
@@ -722,31 +722,31 @@ function Section2() {
 
 function Container35() {
   return (
-    <div className="absolute h-[24px] left-0 top-0 w-[1037px]" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-[519.09px] not-italic text-[#f60] text-[14px] text-center top-[1.5px] tracking-[0.5496px] uppercase whitespace-nowrap">Gallery</p>
+    <div className="absolute h-[24px] left-0 top-0 w-full" data-name="Container">
+      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-1/2 not-italic text-[#f60] text-[14px] text-center top-[1.5px] tracking-[0.5496px] uppercase whitespace-nowrap">Gallery</p>
     </div>
   );
 }
 
 function H7() {
   return (
-    <div className="absolute h-[40px] left-0 top-[40px] w-[1037px]" data-name="h2">
-      <p className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[40px] left-[519.44px] not-italic text-[#003153] text-center top-[0.5px] tracking-[0.3691px] whitespace-nowrap text-[40px]">Lab in Action</p>
+    <div className="absolute h-[40px] left-0 top-[40px] w-full" data-name="h2">
+      <p className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[40px] left-1/2 not-italic text-[#003153] text-center top-[0.5px] tracking-[0.3691px] whitespace-nowrap text-[40px]">Lab in Action</p>
     </div>
   );
 }
 
 function P14() {
   return (
-    <div className="absolute h-[28px] left-0 top-[96px] w-[1037px]" data-name="p">
-      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[28px] left-[518.44px] not-italic text-[#666] text-[18px] text-center top-0 tracking-[-0.4395px] whitespace-nowrap">Glimpses from our research and innovation space</p>
+    <div className="absolute h-[28px] left-0 top-[96px] w-full" data-name="p">
+      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[28px] left-1/2 not-italic text-[#666] text-[18px] text-center top-0 tracking-[-0.4395px] whitespace-nowrap">Glimpses from our research and innovation space</p>
     </div>
   );
 }
 
 function Container34() {
   return (
-    <div className="absolute h-[124px] left-[32px] top-[46px] w-[1037px]" data-name="Container">
+    <div className="absolute h-[124px] left-[32px] top-[46px] w-full" data-name="Container">
       <Container35 />
       <H7 />
       <P14 />
@@ -892,7 +892,7 @@ function Container36() {
 function Section3() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] h-[669px] left-0 top-[987px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="absolute bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)] h-[669px] left-0 top-[987px] w-full px-[5vw]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container34 /></div>
       <Container36 />
     </div>
@@ -902,7 +902,7 @@ function Section3() {
 function Container44() {
   return (
     <div className="h-[24px] relative shrink-0 w-full" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-[518.98px] not-italic text-[#f60] text-[14px] text-center top-[1.5px] tracking-[0.5496px] uppercase whitespace-nowrap">{`News & Updates`}</p>
+      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-1/2 not-italic text-[#f60] text-[14px] text-center top-[1.5px] tracking-[0.5496px] uppercase whitespace-nowrap">{`News & Updates`}</p>
     </div>
   );
 }
@@ -910,7 +910,7 @@ function Container44() {
 function H8() {
   return (
     <div className="h-[40px] relative shrink-0 w-full" data-name="h2">
-      <p className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[40px] left-[518.51px] not-italic text-[#003153] text-center top-[0.5px] tracking-[0.3691px] whitespace-nowrap text-[40px]">Latest Happenings</p>
+      <p className="-translate-x-1/2 absolute font-['Inter:Medium',sans-serif] font-medium leading-[40px] left-1/2 not-italic text-[#003153] text-center top-[0.5px] tracking-[0.3691px] whitespace-nowrap text-[40px]">Latest Happenings</p>
     </div>
   );
 }
@@ -918,14 +918,14 @@ function H8() {
 function P15() {
   return (
     <div className="h-[28px] relative shrink-0 w-full" data-name="p">
-      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[28px] left-[518.98px] not-italic text-[#666] text-[18px] text-center top-0 tracking-[-0.4395px] whitespace-nowrap">Stay updated with our recent activities and achievements</p>
+      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[28px] left-1/2 not-italic text-[#666] text-[18px] text-center top-0 tracking-[-0.4395px] whitespace-nowrap">Stay updated with our recent activities and achievements</p>
     </div>
   );
 }
 
 function Container43() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[16px] h-[124px] items-start left-[32px] top-[80px] w-[1037px]" data-name="Container">
+    <div className="absolute content-stretch flex flex-col gap-[16px] h-[124px] items-start left-[32px] top-[80px] w-full" data-name="Container">
       <Container44 />
       <H8 />
       <P15 />
@@ -980,7 +980,7 @@ function P16() {
 
 function Container46({ extraStyle }: { extraStyle?: CSSProperties }) {
   return (
-    <div style={extraStyle} className="absolute bg-white border border-[#e5e7eb] border-solid h-[230px] left-0 rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] top-0 w-[324.328px]" data-name="Container">
+    <div style={extraStyle} className="relative bg-white border border-[#e5e7eb] border-solid h-[230px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] w-[324px] max-w-[30vw]" data-name="Container">
       <Container47 />
       <H9 />
       <P16 />
@@ -1035,7 +1035,7 @@ function P17() {
 
 function Container48({ extraStyle }: { extraStyle?: CSSProperties }) {
   return (
-    <div style={extraStyle} className="absolute bg-white border border-[#e5e7eb] border-solid h-[230px] left-[356.33px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] top-0 w-[324.336px]" data-name="Container">
+    <div style={extraStyle} className="relative bg-white border border-[#e5e7eb] border-solid h-[230px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] w-[324px] max-w-[30vw]" data-name="Container">
       <Container49 />
       <H10 />
       <P17 />
@@ -1090,7 +1090,7 @@ function P18() {
 
 function Container50({ extraStyle }: { extraStyle?: CSSProperties }) {
   return (
-    <div style={extraStyle} className="absolute bg-white border border-[#e5e7eb] border-solid h-[230px] left-[712.66px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] top-0 w-[324.336px]" data-name="Container">
+    <div style={extraStyle} className="relative bg-white border border-[#e5e7eb] border-solid h-[230px] rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] w-[324px] max-w-[30vw]" data-name="Container">
       <Container51 />
       <H11 />
       <P18 />
@@ -1100,7 +1100,7 @@ function Container50({ extraStyle }: { extraStyle?: CSSProperties }) {
 
 function Container45({ visible }: { visible: boolean }) {
   return (
-    <div className="absolute h-[230px] left-[32px] top-[252px] w-[1037px]" data-name="Container">
+    <div className="absolute h-[230px] left-[32px] top-[252px] w-full" data-name="Container">
       <Container46 extraStyle={popStyle(visible, '0.15s')} />
       <Container48 extraStyle={popStyle(visible, '0.27s')} />
       <Container50 extraStyle={popStyle(visible, '0.39s')} />
@@ -1123,7 +1123,7 @@ function ArrowRight() {
 
 function Link() {
   return (
-    <div className="absolute h-[24px] left-[451.7px] top-[530px] w-[197.594px]" data-name="Link">
+    <div className="absolute h-[24px] left-1/2 -translate-x-1/2 top-[530px] w-[197.594px]" data-name="Link">
       <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[24px] left-[85.5px] not-italic text-[#f60] text-[16px] text-center top-[-0.5px] tracking-[-0.3125px] whitespace-nowrap">{`View All News & Events`}</p>
       <ArrowRight />
     </div>
@@ -1133,7 +1133,7 @@ function Link() {
 function Section4() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-white h-[634px] left-0 top-[2058px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="absolute bg-white h-[634px] left-0 top-[2058px] w-full px-[5vw]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container43 /></div>
       <Container45 visible={visible} />
       <div style={popStyle(visible, '0.45s')}><Link /></div>
@@ -1274,7 +1274,7 @@ function Div2() {
 
 function Section5() {
   return (
-    <div className="absolute content-stretch flex flex-col h-[688px] items-start left-0 overflow-clip pt-[80px] px-[32px] top-0 w-[1101px]" data-name="section" style={{ backgroundImage: "linear-gradient(147.999deg, rgb(255, 255, 255) 0%, rgb(249, 250, 251) 100%)" }}>
+    <div className="absolute content-stretch flex flex-col h-[688px] items-start left-0 overflow-clip pt-[80px] px-[32px] top-0 w-full px-[5vw]" data-name="section" style={{ backgroundImage: "linear-gradient(147.999deg, rgb(255, 255, 255) 0%, rgb(249, 250, 251) 100%)" }}>
       <Div2 />
     </div>
   );
@@ -1282,7 +1282,7 @@ function Section5() {
 
 function MainContent() {
   return (
-    <div className="h-[2692px] relative shrink-0 w-[1101px]" data-name="Main Content">
+    <div className="h-[2692px] relative shrink-0 w-full" data-name="Main Content">
       <style>{`
         @keyframes defPopUp {
           0%   { opacity: 0; transform: translateY(28px) scale(0.96); }
@@ -1520,7 +1520,7 @@ function Container67() {
   return (
     <div className="h-[45px] relative shrink-0 w-full" data-name="Container">
       <div aria-hidden="true" className="absolute border-[#364153] border-solid border-t inset-0 pointer-events-none" />
-      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-[518.5px] not-italic text-[#99a1af] text-[14px] text-center top-[25.5px] tracking-[-0.1504px] whitespace-nowrap">© 2026 DeF Lab - Design for Future Lab. All rights reserved.</p>
+      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-1/2 not-italic text-[#99a1af] text-[14px] text-center top-[25.5px] tracking-[-0.1504px] whitespace-nowrap">© 2026 DeF Lab - Design for Future Lab. All rights reserved.</p>
     </div>
   );
 }
@@ -1538,7 +1538,7 @@ function Footer() {
 
 function Div() {
   return (
-    <div className="relative bg-white content-stretch flex flex-col items-start w-[1101px]" data-name="div">
+    <div className="relative bg-white content-stretch flex flex-col items-start w-full" data-name="div">
       <MainContent />
     </div>
   );
