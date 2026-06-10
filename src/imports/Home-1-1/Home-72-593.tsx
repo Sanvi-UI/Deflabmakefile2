@@ -104,7 +104,6 @@ function Section() {
   const { ref, visible } = useScrollAnim();
   return (
     <div ref={ref} className="absolute bg-white content-stretch flex flex-col h-[402px] items-start left-0 pb-px pt-[64px] px-[38.5px] top-[1656px] w-[1101px]" data-name="section">
-      <div aria-hidden="true" className="absolute border-[#e5e7eb] border-b border-solid inset-0 pointer-events-none" />
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Div1 /></div>
     </div>
   );
@@ -434,7 +433,7 @@ function Container12() {
 function Section1() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-[#f9fafb] content-stretch flex flex-col gap-[48px] h-[445px] items-start left-0 px-[32px] top-[542px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="absolute bg-[#f9fafb] before:absolute before:inset-y-0 before:left-[calc(50%-50vw)] before:w-[100vw] before:bg-[#f9fafb] before:-z-10 content-stretch flex flex-col gap-[48px] h-[445px] items-start left-0 px-[32px] top-[542px] w-[1101px]" data-name="Section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Container4 /></div>
       <div style={popStyle(visible, '0.2s')} className="shrink-0 w-full"><Container12 /></div>
     </div>
@@ -893,7 +892,7 @@ function Container36() {
 function Section3() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-[#f9fafb] h-[669px] left-0 top-[987px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="absolute bg-[#f9fafb] before:absolute before:inset-y-0 before:left-[calc(50%-50vw)] before:w-[100vw] before:bg-[#f9fafb] before:-z-10 h-[669px] left-0 top-[987px] w-[1101px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container34 /></div>
       <Container36 />
     </div>
@@ -1134,7 +1133,7 @@ function Link() {
 function Section4() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="absolute bg-white h-[634px] left-0 top-[2086px] w-[1101px]" data-name="Section">
+    <div ref={ref} className="absolute bg-white h-[634px] left-0 top-[2058px] w-[1101px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container43 /></div>
       <Container45 visible={visible} />
       <div style={popStyle(visible, '0.45s')}><Link /></div>
@@ -1283,7 +1282,7 @@ function Section5() {
 
 function MainContent() {
   return (
-    <div className="h-[2720px] relative shrink-0 w-[1101px]" data-name="Main Content">
+    <div className="h-[2692px] relative shrink-0 w-[1101px]" data-name="Main Content">
       <style>{`
         @keyframes defPopUp {
           0%   { opacity: 0; transform: translateY(28px) scale(0.96); }
