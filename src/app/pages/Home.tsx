@@ -6,7 +6,7 @@ export function Home() {
     <div className="w-full bg-white overflow-x-hidden">
       <HomeHero />
       <div className="w-full flex justify-center">
-        <div className="w-full">
+        <div className="w-full max-w-[1101px]">
           <HomeFrame />
         </div>
       </div>
