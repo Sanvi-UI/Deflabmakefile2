@@ -8,6 +8,7 @@ import imgImg4 from "../image-74.png";
 import imgImg5 from "../image-75.png";
 import imgImg6 from "../image-76.png";
 import imgImg7 from "../image-77.png";
+import imgImg8 from "../image-113.jpg";
 
 function useScrollAnim(threshold = 0.1) {
   const ref = useRef<HTMLDivElement>(null);
@@ -851,8 +852,8 @@ function Container42() {
 }
 
 function Container36() {
-  const row1imgs = [imgImg, imgImg2, imgImg4, imgImg6, imgImg1, imgImg5, imgImg3, imgImg7];
-  const row2imgs = [imgImg3, imgImg6, imgImg1, imgImg7, imgImg4, imgImg, imgImg5, imgImg2];
+  const row1imgs = [imgImg, imgImg2, imgImg4, imgImg6, imgImg1, imgImg5, imgImg3, imgImg7, imgImg8];
+  const row2imgs = [imgImg8, imgImg3, imgImg6, imgImg1, imgImg7, imgImg4, imgImg, imgImg5, imgImg2];
   const row1 = [...row1imgs, ...row1imgs];
   const row2 = [...row2imgs, ...row2imgs];
   return (
