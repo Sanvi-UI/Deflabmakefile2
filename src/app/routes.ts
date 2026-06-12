@@ -25,7 +25,7 @@ export const router = createHashRouter([
       { path: "courses/:slug", Component: CourseDetail },
       { path: "research", Component: Research },
       { path: "research/:id", Component: ResearchDetail },
-      { path: "events", Component: Events },
+      { path: "events", Component: EventsFigma },
       { path: "contact", Component: Contact },
     ],
   },
