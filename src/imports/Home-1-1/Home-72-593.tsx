@@ -893,7 +893,7 @@ function Container36() {
 function Section3() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="relative h-auto left-0 w-full min-h-[669px]" data-name="Section">
+    <div ref={ref} className="relative h-auto left-0 w-full min-h-[520px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container34 /></div>
       <div style={popStyle(visible, '0.2s')}><Container36 /></div>
     </div>
@@ -926,7 +926,7 @@ function P15() {
 
 function Container43() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[16px] h-[124px] items-start left-[32px] top-[80px] w-[1037px]" data-name="Container">
+    <div className="absolute content-stretch flex flex-col gap-[16px] h-[124px] items-start left-[32px] top-[32px] w-[1037px]" data-name="Container">
       <Container44 />
       <H8 />
       <P15 />
