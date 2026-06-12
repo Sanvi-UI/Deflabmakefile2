@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <img src={defLabLogo} alt="DeF Lab" className="h-10 w-auto mb-4 rounded-lg" />
             <p className="text-sm text-gray-300">
-              Design for Future Lab - Exploring VR, immersive simulations, and future mobility design.
+              The Design for Future Lab work explores the intersection of emerging technologies and design processes.
             </p>
           </div>
 

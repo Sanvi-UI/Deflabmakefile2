@@ -426,7 +426,7 @@ function Paragraph7() {
   return (
     <div className="relative shrink-0 w-[333.656px]" data-name="Paragraph">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pt-[16px] relative size-full">
-        <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[20px] not-italic relative shrink-0 text-[#d1d5dc] text-[14px] w-[334px]">Design for Future Lab - Exploring VR, immersive simulations, and future mobility design.</p>
+        <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[20px] not-italic relative shrink-0 text-[#d1d5dc] text-[14px] w-[334px]">The Design for Future Lab work explores the intersection of emerging technologies and design processes.</p>
       </div>
     </div>
   );

@@ -1512,7 +1512,7 @@ function Img8() {
 function P9() {
   return (
     <div className="absolute h-[40px] left-0 top-[64px] w-[324.328px]" data-name="p">
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-0 not-italic text-[#d1d5dc] text-[14px] top-[0.5px] tracking-[-0.1504px] w-[310px]">Design for Future Lab - Exploring VR, immersive simulations, and future mobility design.</p>
+      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[20px] left-0 not-italic text-[#d1d5dc] text-[14px] top-[0.5px] tracking-[-0.1504px] w-[310px]">The Design for Future Lab work explores the intersection of emerging technologies and design processes.</p>
     </div>
   );
 }
