@@ -357,14 +357,10 @@ export function CourseDetail() {
                   conceptGallery1, conceptGallery2, conceptGallery3, conceptGallery4, conceptGallery5,
                   conceptGallery6, conceptGallery7, conceptGallery8, conceptGallery9, conceptGallery10,
                 ];
-                const reel = [...galleryImgs, ...galleryImgs];
                 return (
-                  <div className="relative w-full overflow-hidden">
-                    <div
-                      className="flex gap-6 ci-scroll-track"
-                      style={{ width: "max-content" }}
-                    >
-                      {reel.map((img, i) => (
+                  <div className="overflow-x-auto -mx-4 px-4 pb-2">
+                    <div className="flex gap-6" style={{ width: "max-content" }}>
+                      {galleryImgs.map((img, i) => (
                         <div
                           key={i}
                           className="flex-shrink-0 rounded-xl overflow-hidden bg-gray-100 shadow-md"
@@ -372,25 +368,13 @@ export function CourseDetail() {
                         >
                           <img
                             src={img}
-                            alt={`Concept and Ideation in VR ${(i % galleryImgs.length) + 1}`}
+                            alt={`Concept and Ideation in VR ${i + 1}`}
                             className="block w-full h-full object-cover"
                             draggable={false}
                           />
                         </div>
                       ))}
                     </div>
-                    <style>{`
-                      @keyframes ciScroll {
-                        0%   { transform: translateX(0); }
-                        100% { transform: translateX(-50%); }
-                      }
-                      .ci-scroll-track {
-                        animation: ciScroll 60s linear infinite;
-                      }
-                      .ci-scroll-track:hover {
-                        animation-play-state: paused;
-                      }
-                    `}</style>
                   </div>
                 );
               })()}
@@ -603,14 +587,10 @@ export function CourseDetail() {
               iaGallery1, iaGallery2, iaGallery3, iaGallery4, iaGallery5,
               iaGallery6, iaGallery7, iaGallery8, iaGallery9, iaGallery10,
             ];
-            const reel = [...galleryImgs, ...galleryImgs];
             return (
-              <div className="relative w-full overflow-hidden">
-                <div
-                  className="flex gap-6 ia-scroll-track"
-                  style={{ width: "max-content" }}
-                >
-                  {reel.map((img, i) => (
+              <div className="overflow-x-auto -mx-4 px-4 pb-2">
+                <div className="flex gap-6" style={{ width: "max-content" }}>
+                  {galleryImgs.map((img, i) => (
                     <div
                       key={i}
                       className="flex-shrink-0 rounded-xl overflow-hidden bg-gray-100 shadow-md"
@@ -618,25 +598,13 @@ export function CourseDetail() {
                     >
                       <img
                         src={img}
-                        alt={`Immersive Art in VR ${(i % galleryImgs.length) + 1}`}
+                        alt={`Immersive Art in VR ${i + 1}`}
                         className="block w-full h-full object-cover"
                         draggable={false}
                       />
                     </div>
                   ))}
                 </div>
-                <style>{`
-                  @keyframes iaScroll {
-                    0%   { transform: translateX(0); }
-                    100% { transform: translateX(-50%); }
-                  }
-                  .ia-scroll-track {
-                    animation: iaScroll 60s linear infinite;
-                  }
-                  .ia-scroll-track:hover {
-                    animation-play-state: paused;
-                  }
-                `}</style>
               </div>
             );
           })()}
