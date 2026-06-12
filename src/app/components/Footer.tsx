@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Logo and Description */}
           <div>
-            <img src={defLabLogo} alt="DeF Lab" className="h-12 w-auto mb-4" />
+            <img src={defLabLogo} alt="DeF Lab" className="h-10 w-auto mb-4" />
             <p className="text-sm text-gray-300">
               The Design for Future Lab work explores the intersection of emerging technologies and design processes.
             </p>
