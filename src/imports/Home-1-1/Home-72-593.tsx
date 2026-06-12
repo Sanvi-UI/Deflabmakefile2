@@ -1101,7 +1101,7 @@ function Container50({ extraStyle }: { extraStyle?: CSSProperties }) {
 
 function Container45({ visible }: { visible: boolean }) {
   return (
-    <div className="absolute h-[230px] left-[32px] top-[252px] w-[1037px]" data-name="Container">
+    <div className="absolute h-[230px] left-[32px] top-[204px] w-[1037px]" data-name="Container">
       <Container46 extraStyle={popStyle(visible, '0.15s')} />
       <Container48 extraStyle={popStyle(visible, '0.27s')} />
       <Container50 extraStyle={popStyle(visible, '0.39s')} />
@@ -1125,7 +1125,7 @@ function ArrowRight() {
 function Link() {
   return (
     <a href="/#/events" style={{ textDecoration: 'none', cursor: 'pointer' }}>
-      <div className="absolute h-[24px] left-[451.7px] top-[530px] w-[197.594px]" data-name="Link">
+      <div className="absolute h-[24px] left-[451.7px] top-[482px] w-[197.594px]" data-name="Link">
         <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[24px] left-[85.5px] not-italic text-[#f60] text-[16px] text-center top-[-0.5px] tracking-[-0.3125px] whitespace-nowrap">{`View All News & Events`}</p>
         <ArrowRight />
       </div>
