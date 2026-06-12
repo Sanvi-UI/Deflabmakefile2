@@ -70,9 +70,15 @@ export function Facilities() {
           image: "https://images.unsplash.com/photo-1758273239313-6c703d089dd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aXJ0dWFsJTIwcmVhbGl0eSUyMGV4cGVyaWVuY2UlMjB0ZWNobm9sb2d5fGVufDF8fHx8MTc3Mjk1NjE0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
         },
         {
-          name: "Pico",
-          description: "Enterprise-focused VR headset designed for professional applications with powerful performance and comfort.",
-          specs: ["High-Resolution Display", "Lightweight Design", "Long Battery Life", "Business Applications"],
+          name: "Pico 4 Ultra",
+          description: "Premium standalone VR headset with ultra-high resolution display and advanced mixed reality capabilities for professional and research applications.",
+          specs: ["Ultra-High Resolution Display", "Mixed Reality Passthrough", "Eye & Face Tracking", "Snapdragon XR2 Gen 2"],
+          image: "https://images.unsplash.com/photo-1758273239313-6c703d089dd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aXJ0dWFsJTIwcmVhbGl0eSUyMGV4cGVyaWVuY2UlMjB0ZWNobm9sb2d5fGVufDF8fHx8MTc3Mjk1NjE0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        },
+        {
+          name: "Pico 4 Enterprise",
+          description: "Enterprise-focused VR headset designed for professional applications, training, and collaboration with advanced device management features.",
+          specs: ["Enterprise Device Management", "Long Battery Life", "Lightweight Design", "Business-Grade Security"],
           image: "https://images.unsplash.com/photo-1758273239313-6c703d089dd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aXJ0dWFsJTIwcmVhbGl0eSUyMGV4cGVyaWVuY2UlMjB0ZWNobm9sb2d5fGVufDF8fHx8MTc3Mjk1NjE0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
         },
       ],
