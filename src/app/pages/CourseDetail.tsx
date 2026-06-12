@@ -30,7 +30,7 @@ import iaGallery9 from "../../imports/image-54.png";
 import iaGallery10 from "../../imports/image-55.png";
 import dffHeroImg from "../../imports/image-22.png";
 import immersiveArtBanner from "../../imports/image-57.png";
-import conceptIdeationBanner from "../../imports/image-69.png";
+import conceptIdeationBanner from "../../imports/concept_ideation_banner.webp";
 
 type CourseDetailData = {
   slug: string;

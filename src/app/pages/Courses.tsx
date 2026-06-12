@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import { PageHeader } from "../components/PageHeader";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
 import immersiveArtCover from "../../imports/image-57.png";
-import conceptIdeationCover from "../../imports/image-69.png";
+import conceptIdeationCover from "../../imports/concept_ideation_banner.webp";
 import teachingPhilosophyImg from "../../imports/image-78.png";
 
 function CourseCard({ course, index }: { course: any; index: number }) {
