@@ -103,7 +103,7 @@ export function Facilities() {
     },
     {
       icon: <Scan className="w-8 h-8 text-[#FF6600]" />,
-      title: "3D Scanning",
+      title: "Sensors",
       products: [
         {
           name: "3D Scanner",
@@ -111,12 +111,6 @@ export function Facilities() {
           specs: ["High Resolution Capture", "Point Cloud Processing", "Mesh Generation", "Texture Mapping"],
           image: "https://images.unsplash.com/photo-1612886649688-ef2912f17921?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHwzRCUyMHNjYW5uaW5nJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI5MTA4MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
         },
-      ],
-    },
-    {
-      icon: <Code className="w-8 h-8 text-[#FF6600]" />,
-      title: "Creative Coding",
-      products: [
         {
           name: "Kinect Azure",
           description: "Advanced depth sensing camera with AI-powered body tracking for interactive installations and creative coding.",
