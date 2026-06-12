@@ -307,7 +307,7 @@ export function Team() {
             We're always looking for passionate researchers and designers. Check out our open positions and collaboration opportunities.
           </p>
           <a
-            href="/contact"
+            href="/#/contact"
             className="inline-block px-8 py-3 bg-[#FF6600] text-white rounded-lg hover:bg-[#FF6600]/90 transition-colors"
           >
             Get in Touch

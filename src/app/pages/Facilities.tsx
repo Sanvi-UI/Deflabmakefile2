@@ -245,7 +245,7 @@ export function Facilities() {
             Interested in using our facilities or collaborating on research? Get in touch with us to schedule a visit.
           </p>
           <a
-            href="/contact"
+            href="/#/contact"
             className="inline-block px-8 py-3 bg-[#FF6600] text-white rounded-lg hover:bg-[#FF6600]/90 transition-colors shadow-lg hover:shadow-xl"
           >
             Contact Us

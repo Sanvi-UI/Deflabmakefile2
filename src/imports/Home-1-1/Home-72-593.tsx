@@ -1123,10 +1123,12 @@ function ArrowRight() {
 
 function Link() {
   return (
-    <div className="absolute h-[24px] left-[451.7px] top-[530px] w-[197.594px]" data-name="Link">
-      <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[24px] left-[85.5px] not-italic text-[#f60] text-[16px] text-center top-[-0.5px] tracking-[-0.3125px] whitespace-nowrap">{`View All News & Events`}</p>
-      <ArrowRight />
-    </div>
+    <a href="/#/events" style={{ textDecoration: 'none', cursor: 'pointer' }}>
+      <div className="absolute h-[24px] left-[451.7px] top-[530px] w-[197.594px]" data-name="Link">
+        <p className="-translate-x-1/2 absolute font-['Inter:Regular',sans-serif] font-normal leading-[24px] left-[85.5px] not-italic text-[#f60] text-[16px] text-center top-[-0.5px] tracking-[-0.3125px] whitespace-nowrap">{`View All News & Events`}</p>
+        <ArrowRight />
+      </div>
+    </a>
   );
 }
 
