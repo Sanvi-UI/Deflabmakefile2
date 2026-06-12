@@ -895,8 +895,8 @@ function Container46() {
 
 function Span20() {
   return (
-    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[95.289px]" style={{background:'#fef3c7'}} data-name="span">
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#b45309'}}>Collaboration</p>
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[95.289px]" style={{background:'#fff0e6'}} data-name="span">
+      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#FF6600'}}>Collaboration</p>
     </div>
   );
 }
