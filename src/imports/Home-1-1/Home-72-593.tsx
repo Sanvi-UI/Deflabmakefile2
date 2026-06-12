@@ -1294,9 +1294,8 @@ function MainContent() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full flex flex-col items-center">
         <div className="w-full flex flex-col items-center pt-[80px] pb-[40px]">
           <Section2 />
+          <div style={{width:'100%', height:'1px', background:'rgba(0,0,0,0.2)', marginTop:'32px'}} />
         </div>
-        
-        <hr style={{width:'90%', border:'none', borderTop:'1px solid rgba(0,0,0,0.15)', margin:'0 auto'}} />
         
         <div className="w-full flex flex-col items-center gap-[48px] py-[20px] bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)]">
           <Section1 />
