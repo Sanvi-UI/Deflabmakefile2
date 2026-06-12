@@ -894,7 +894,7 @@ function Section3() {
   return (
     <div ref={ref} className="relative h-auto left-0 w-full min-h-[669px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container34 /></div>
-      <Container36 />
+      <div style={popStyle(visible, '0.2s')}><Container36 /></div>
     </div>
   );
 }
@@ -1296,12 +1296,12 @@ function MainContent() {
           <Section2 />
         </div>
         
-        <div className="w-full flex flex-col items-center gap-[80px] py-[40px] bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)]">
+        <div className="w-full flex flex-col items-center gap-[48px] py-[20px] bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)]">
           <Section1 />
           <Section3 />
         </div>
         
-        <div className="w-full flex flex-col items-center gap-[80px] pt-[40px] pb-[80px]">
+        <div className="w-full flex flex-col items-center gap-[80px] pt-[20px] pb-[80px]">
           <Section />
           <Section4 />
         </div>
