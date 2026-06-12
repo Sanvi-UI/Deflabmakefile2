@@ -1,6 +1,6 @@
 import svgPaths from "../../imports/Events/svg-zf6phw8csl";
 import imgImg from "../../imports/Events/d3aed7537a93b27db628187b474a489f77626ed1.webp";
-import imgImg1 from "../../imports/Events/d6b81ce084b5d891f283ad24b7118065326a848c.webp";
+import imgImg1 from "../../imports/Events/animela_event.webp";
 import imgImg2 from "../../imports/Events/autodesk_visit.webp";
 import imgImg3 from "../../imports/Events/95b11a16d2bfdbf37864363434e1b464dddec7b3.webp";
 import imgImg4 from "../../imports/Events/43e8718aad9608335b023f2682017f78c01bc3f6.webp";
