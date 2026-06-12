@@ -217,7 +217,7 @@ export function Contact() {
           <div className="aspect-video rounded-2xl overflow-hidden border border-gray-200 shadow-lg">
             <iframe
               title="DeF Lab, IIT Bombay location"
-              src="https://maps.google.com/maps?q=19.133914150090217,72.91375497594&hl=en&z=17&output=embed"
+              src="https://maps.google.com/maps?q=19.1332358,72.917283&hl=en&z=18&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
