@@ -105,6 +105,7 @@ function Section() {
   return (
     <div ref={ref} className="relative bg-white content-stretch flex flex-col h-auto items-start left-0 px-[38.5px] w-full" data-name="section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Div1 /></div>
+      <div style={{width:'100%', height:'1px', background:'rgba(0,0,0,0.18)', marginTop:'48px'}} />
     </div>
   );
 }
@@ -1294,7 +1295,6 @@ function MainContent() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full flex flex-col items-center">
         <div className="w-full flex flex-col items-center pt-[80px] pb-[40px]">
           <Section2 />
-          <div style={{width:'100%', height:'1px', background:'rgba(0,0,0,0.2)', marginTop:'32px'}} />
         </div>
         
         <div className="w-full flex flex-col items-center gap-[48px] py-[20px] bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)]">
