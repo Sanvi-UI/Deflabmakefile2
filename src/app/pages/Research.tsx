@@ -14,6 +14,7 @@ import vtolCover from "@/imports/image-96.png";
 import impossibleCover from "@/imports/image-97.png";
 import ryoCover from "../../imports/image-110.png";
 import snehaCover from "../../imports/image-105.png";
+import polkadotCover from "../../imports/polkadot_research.webp";
 
 function ResearchCard({ project, index }: { project: any; index: number }) {
   const { ref, isVisible } = useScrollAnimation();
@@ -190,7 +191,7 @@ export function Research() {
       category: "Interaction Design",
       duration: "2 months",
       description: "Innovative interface design exploring pattern-based interaction methods for enhanced immersive environments.",
-      image: "https://images.unsplash.com/photo-1672685847201-f0866fb87c52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnRlcmFjdGl2ZSUyMGRvdCUyMHBhdHRlcm4lMjBkZXNpZ258ZW58MXx8fHwxNzcyOTY0NzY0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: polkadotCover,
     },
   ];
 

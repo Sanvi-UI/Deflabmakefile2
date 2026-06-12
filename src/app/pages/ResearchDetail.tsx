@@ -45,6 +45,7 @@ import snehaImg3 from "@/imports/image-100.png";
 import snehaImg4 from "@/imports/image-101.png";
 import snehaImg5 from "@/imports/image-102.png";
 import snehaImg6 from "@/imports/image-103.png";
+import polkadotBanner from "../../imports/polkadot_research.webp";
 
 export function ResearchDetail() {
   const { id } = useParams();
@@ -82,7 +83,9 @@ export function ResearchDetail() {
       duration: "2 months",
       category: "Interaction Design",
       description: "This experimental research explores pattern-based interaction methods for immersive environments, focusing on the unique properties of polka dot patterns as interaction triggers and visual feedback mechanisms. The project investigates how distributed dot patterns can serve as both interface elements and tracking markers, creating a seamless integration between visual design and functional interaction. Through user studies and iterative prototyping, the research demonstrates how polka dot patterns can enhance spatial awareness, provide intuitive feedback, and create engaging interactive experiences in both augmented and virtual reality contexts. The findings reveal that pattern-based interactions can reduce cognitive load while maintaining aesthetic appeal, making them particularly suitable for creative applications where visual design and functionality must coexist harmoniously.",
-      bannerImage: "https://images.unsplash.com/photo-1672685847201-f0866fb87c52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnRlcmFjdGl2ZSUyMGRvdCUyMHBhdHRlcm4lMjBkZXNpZ258ZW58MXx8fHwxNzcyOTY0NzY0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      bannerImage: "",
+      localBannerImage: polkadotBanner,
+      galleryImages: [polkadotBanner],
     },
     {
       id: "dynamic-reality-vehicle-engineering",

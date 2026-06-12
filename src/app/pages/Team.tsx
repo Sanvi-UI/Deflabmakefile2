@@ -18,6 +18,7 @@ import radhikaImg from "../../imports/image-19.png";
 import vaibhavImg from "../../imports/image-20.png";
 import zechariaImg from "../../imports/image-44.png";
 import aryamaanImg from "../../imports/image-45.png";
+import ayushImg from "../../imports/ayush_patil.webp";
 
 interface TeamCategory {
   category: string;
@@ -184,6 +185,7 @@ const teamCategories: TeamCategory[] = [
         interests: ["Gesture-Based Interaction", "Gamified Learning", "Immersive Spaces", "Projection Mapping", "Interactive Exhibitions"],
         email: "ayush@deflab.in",
         linkedin: "https://linkedin.com/in/ayushpatil",
+        image: ayushImg,
       },
       {
         name: "Aryamaan Borgohain",
