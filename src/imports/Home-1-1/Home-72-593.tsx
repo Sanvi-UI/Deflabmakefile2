@@ -1301,8 +1301,6 @@ function MainContent() {
           <Section3 />
         </div>
 
-        <div className="w-full border-t border-black/10" style={{borderTopWidth: '1px', borderColor: '#1a1a1a', opacity: 0.12}} />
-
         <div className="w-full flex flex-col items-center gap-[80px] pt-[20px] pb-[80px]">
           <Section />
           <Section4 />
