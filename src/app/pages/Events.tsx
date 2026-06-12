@@ -2,13 +2,13 @@ import { Calendar, MapPin, Users } from "lucide-react";
 import { useState } from "react";
 import { PageHeader } from "../components/PageHeader";
 
-import indiahciImg from "../../assets/events/indiahci.jpg";
-import animelaImg from "../../assets/events/animela.jpg";
-import autodeskImg from "../../assets/events/autodesk.jpg";
-import sonyImg from "../../assets/events/sony.jpg";
-import drdoImg from "../../assets/events/drdo.jpg";
-import tudelftImg from "../../assets/events/tudelft.jpg";
-import showcaseImg from "../../assets/events/showcase.jpg";
+import indiahciImg from "../../assets/events/indiahci.webp";
+import animelaImg from "../../assets/events/animela.webp";
+import autodeskImg from "../../assets/events/autodesk.webp";
+import sonyImg from "../../assets/events/sony.webp";
+import drdoImg from "../../assets/events/drdo.webp";
+import tudelftImg from "../../assets/events/tudelft.webp";
+import showcaseImg from "../../assets/events/showcase.webp";
 
 export function Events() {
   const [activeFilter, setActiveFilter] = useState<"all" | "upcoming" | "past">("all");
