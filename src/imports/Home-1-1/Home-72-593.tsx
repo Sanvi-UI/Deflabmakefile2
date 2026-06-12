@@ -1299,10 +1299,12 @@ function MainContent() {
         <div className="w-full flex flex-col items-center gap-[48px] py-[20px] bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)]">
           <Section1 />
           <Section3 />
-          <Section />
         </div>
-        
+
+        <div className="w-full border-t border-black/10" style={{borderTopWidth: '1px', borderColor: '#1a1a1a', opacity: 0.12}} />
+
         <div className="w-full flex flex-col items-center gap-[80px] pt-[20px] pb-[80px]">
+          <Section />
           <Section4 />
         </div>
       </div>
