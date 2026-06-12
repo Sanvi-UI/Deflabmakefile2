@@ -58,9 +58,7 @@ function ResearchCard({ project, index }: { project: any; index: number }) {
           {project.professor && (
             <p className="text-sm text-[#666666] truncate">Professor: {project.professor}</p>
           )}
-          {project.duration && (
-            <p className="text-sm text-[#666666] truncate">Duration: {project.duration}</p>
-          )}
+
         </div>
 
         {/* Description */}
