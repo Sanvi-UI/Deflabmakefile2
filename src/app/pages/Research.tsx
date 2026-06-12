@@ -48,7 +48,7 @@ function ResearchCard({ project, index }: { project: any; index: number }) {
         </div>
 
         {/* Title */}
-        <h3 className="text-2xl text-[#003153] mb-3 group-hover:text-[#FF6600] transition-colors h-[90px] leading-tight line-clamp-3 overflow-hidden">
+        <h3 className="text-2xl text-[#003153] mb-1 group-hover:text-[#FF6600] transition-colors h-[90px] leading-tight line-clamp-3 overflow-hidden">
           {project.title}
         </h3>
 
