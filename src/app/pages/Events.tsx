@@ -189,11 +189,16 @@ function EventCard({ event, index }: { event: any; index: number }) {
     >
       {/* Status Badge & Gradient Line */}
       <div className="absolute top-0 left-0 right-0 z-10 flex justify-between items-start p-6">
-        <span className={`px-4 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm border ${
-          event.status === "Upcoming"
-            ? "bg-green-100 text-green-700 border-green-300"
-            : "bg-red-100 text-red-600 border-red-300"
-        }`}>
+        <span style={{
+          padding: '4px 14px',
+          borderRadius: '9999px',
+          fontSize: '0.75rem',
+          fontWeight: 600,
+          backdropFilter: 'blur(4px)',
+          border: event.status === "Upcoming" ? '1px solid #86efac' : '1px solid #fca5a5',
+          background: event.status === "Upcoming" ? '#dcfce7' : '#fee2e2',
+          color: event.status === "Upcoming" ? '#15803d' : '#dc2626',
+        }}>
           {event.status}
         </span>
       </div>
@@ -215,15 +220,19 @@ function EventCard({ event, index }: { event: any; index: number }) {
         <div className="md:w-3/5 p-6 md:p-8 flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <span className={`text-xs font-medium px-3 py-1 rounded-full ${
-                event.type === "Conference"
-                  ? "bg-purple-100 text-purple-700"
+              <span style={{
+                fontSize: '0.75rem',
+                fontWeight: 600,
+                padding: '2px 12px',
+                borderRadius: '9999px',
+                ...(event.type === "Conference"
+                  ? { background: '#f3e8ff', color: '#7e22ce' }
                   : event.type === "Exhibition"
-                  ? "bg-blue-100 text-blue-700"
+                  ? { background: '#dbeafe', color: '#1d4ed8' }
                   : event.type === "Industry Visit"
-                  ? "bg-teal-100 text-teal-700"
-                  : "bg-orange-100 text-orange-700"
-              }`}>
+                  ? { background: '#ccfbf1', color: '#0f766e' }
+                  : { background: '#ffedd5', color: '#c2410c' })
+              }}>
                 {event.type}
               </span>
             </div>
