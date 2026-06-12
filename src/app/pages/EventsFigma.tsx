@@ -2,7 +2,7 @@ import svgPaths from "../../imports/Events/svg-zf6phw8csl";
 import imgImg from "../../imports/Events/indiahci_event.webp";
 import imgImg1 from "../../imports/Events/animela_event.webp";
 import imgImg2 from "../../imports/Events/autodesk_visit.webp";
-import imgImg3 from "../../imports/Events/95b11a16d2bfdbf37864363434e1b464dddec7b3.webp";
+import imgImg3 from "../../imports/Events/sony_event.webp";
 import imgImg4 from "../../imports/Events/drdo_event.webp";
 import imgImg5 from "../../imports/Events/tudelft_event.webp";
 import imgImg6 from "../../imports/Events/showcase_event.webp";
