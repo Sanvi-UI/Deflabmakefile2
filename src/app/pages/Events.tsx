@@ -12,7 +12,7 @@ export function Events() {
       type: "Conference",
       location: "IIT Bombay",
       description: "Showcasing our latest VR research and interactive installations at India's premier Human-Computer Interaction conference.",
-      image: "https://images.unsplash.com/photo-1768590149213-8ab16aaf7511?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29uZmVyZW5jZSUyMGV2ZW50fGVufDF8fHx8MTc3Mjg3NTk4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "./events/indiahci.jpg",
       status: "Completed",
     },
     {
@@ -21,7 +21,7 @@ export function Events() {
       type: "Exhibition",
       location: "Mumbai",
       description: "Participating in India's largest animation and immersive media festival with VR art installations and demonstrations.",
-      image: "https://images.unsplash.com/photo-1758598303762-56c85bef2496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbW1lcnNpdmUlMjBkaWdpdGFsJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI5NTYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "./events/animela.jpg",
       status: "Completed",
     },
     {
@@ -30,7 +30,7 @@ export function Events() {
       type: "Industry Visit",
       location: "DeF Lab",
       description: "Hosted Autodesk team for collaboration discussions on future design tools and VR integration in automotive design workflows.",
-      image: "https://images.unsplash.com/photo-1761122912306-13d8f83892c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjByZXNlYXJjaCUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NzI5NTYxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "./events/autodesk.jpg",
       status: "Completed",
     },
     {
@@ -39,7 +39,7 @@ export function Events() {
       type: "Industry Visit",
       location: "DeF Lab",
       description: "Meeting with Sony Research team to explore collaborative opportunities in immersive entertainment and VR experiences.",
-      image: "https://images.unsplash.com/photo-1759092912891-9f52486bb059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1bml2ZXJzaXR5JTIwbGFib3JhdG9yeXxlbnwxfHx8fDE3NzI5NTYxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "./events/sony.jpg",
       status: "Completed",
     },
     {
@@ -48,7 +48,7 @@ export function Events() {
       type: "Industry Visit",
       location: "DeF Lab",
       description: "Technical exchange session with Defence Research and Development Organisation focusing on simulation and training applications.",
-      image: "https://images.unsplash.com/photo-1771920800290-53f22e5ac3f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjBzaW11bGF0b3IlMjBjb2NrcGl0fGVufDF8fHx8MTc3Mjk1NjE0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "./events/drdo.jpg",
       status: "Completed",
     },
     {
@@ -57,7 +57,7 @@ export function Events() {
       type: "Collaboration",
       location: "DeF Lab & Online",
       description: "Joint research workshop with TU Delft faculty and students exploring future mobility design and sustainable transportation.",
-      image: "https://images.unsplash.com/photo-1760386128692-81476422e599?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMG1vYmlsaXR5JTIwZnV0dXJlJTIwY2l0eXxlbnwxfHx8fDE3NzI5NTYxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "./events/tudelft.jpg",
       status: "Upcoming",
     },
     {
@@ -66,7 +66,7 @@ export function Events() {
       type: "Exhibition",
       location: "IIT Bombay",
       description: "Annual exhibition showcasing student projects, research outcomes, and innovative prototypes from the past academic year.",
-      image: "https://images.unsplash.com/photo-1768590149213-8ab16aaf7511?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29uZmVyZW5jZSUyMGV2ZW50fGVufDF8fHx8MTc3Mjg3NTk4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "./events/showcase.jpg",
       status: "Upcoming",
     },
     {
