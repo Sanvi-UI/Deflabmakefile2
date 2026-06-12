@@ -159,7 +159,7 @@ export function Events() {
             Interested in hosting an event, exhibition, or research collaboration with DeF Lab? We welcome partnerships with industry and academia.
           </p>
           <a
-            href="/contact"
+            href="/#/contact"
             className="inline-block px-8 py-3 bg-[#FF6600] text-white rounded-lg hover:bg-[#FF6600]/90 transition-colors shadow-lg hover:shadow-xl"
           >
             Discuss Collaboration
@@ -189,10 +189,10 @@ function EventCard({ event, index }: { event: any; index: number }) {
     >
       {/* Status Badge & Gradient Line */}
       <div className="absolute top-0 left-0 right-0 z-10 flex justify-between items-start p-6">
-        <span className={`px-4 py-1.5 rounded-full text-xs backdrop-blur-sm border ${
+        <span className={`px-4 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm border ${
           event.status === "Upcoming"
-            ? "bg-[#7DF9FF]/90 text-[#003153] border-[#7DF9FF]"
-            : "bg-white/90 text-[#666666] border-gray-300"
+            ? "bg-green-100 text-green-700 border-green-300"
+            : "bg-red-100 text-red-600 border-red-300"
         }`}>
           {event.status}
         </span>
@@ -215,7 +215,15 @@ function EventCard({ event, index }: { event: any; index: number }) {
         <div className="md:w-3/5 p-6 md:p-8 flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs px-3 py-1 bg-[#FF6600]/10 text-[#FF6600] rounded-full">
+              <span className={`text-xs font-medium px-3 py-1 rounded-full ${
+                event.type === "Conference"
+                  ? "bg-purple-100 text-purple-700"
+                  : event.type === "Exhibition"
+                  ? "bg-blue-100 text-blue-700"
+                  : event.type === "Industry Visit"
+                  ? "bg-teal-100 text-teal-700"
+                  : "bg-orange-100 text-orange-700"
+              }`}>
                 {event.type}
               </span>
             </div>
