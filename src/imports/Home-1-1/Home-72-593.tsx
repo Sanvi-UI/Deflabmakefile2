@@ -857,7 +857,7 @@ function Container36() {
   const row1 = [...row1imgs, ...row1imgs];
   const row2 = [...row2imgs, ...row2imgs];
   return (
-    <div className="absolute left-[calc(50%-50vw)] top-[155px] w-[100vw] overflow-hidden flex flex-col gap-[20px]">
+    <div className="absolute left-[calc(50%-50vw)] top-[185px] w-[100vw] overflow-hidden flex flex-col gap-[20px]">
       <style>{`
         @keyframes lab-ltr {
           from { transform: translateX(-50%); }
@@ -893,7 +893,7 @@ function Container36() {
 function Section3() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="relative h-auto left-0 w-full min-h-[580px]" data-name="Section">
+    <div ref={ref} className="relative h-auto left-0 w-full min-h-[610px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container34 /></div>
       <div style={popStyle(visible, '0.2s')}><Container36 /></div>
     </div>
