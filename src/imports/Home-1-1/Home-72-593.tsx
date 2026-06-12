@@ -1296,6 +1296,8 @@ function MainContent() {
           <Section2 />
         </div>
         
+        <hr style={{width:'90%', border:'none', borderTop:'1px solid rgba(0,0,0,0.15)', margin:'0 auto'}} />
+        
         <div className="w-full flex flex-col items-center gap-[48px] py-[20px] bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)]">
           <Section1 />
           <Section3 />
