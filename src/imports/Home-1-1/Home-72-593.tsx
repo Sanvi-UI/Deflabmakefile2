@@ -1136,7 +1136,7 @@ function Link() {
 function Section4() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="relative bg-white h-auto left-0 w-full min-h-[634px]" data-name="Section">
+    <div ref={ref} className="relative bg-white h-auto left-0 w-full min-h-[540px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container43 /></div>
       <Container45 visible={visible} />
       <div style={popStyle(visible, '0.45s')}><Link /></div>
@@ -1302,7 +1302,7 @@ function MainContent() {
           <Section3 />
         </div>
 
-        <div className="w-full flex flex-col items-center gap-[80px] pt-[48px] pb-[80px]">
+        <div className="w-full flex flex-col items-center gap-[80px] pt-[48px] pb-[40px]">
           <Section />
           <Section4 />
         </div>
