@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import defLabLogo from "../../imports/image-2.webp";
 
 export function Footer() {
@@ -42,10 +42,7 @@ export function Footer() {
                 <Mail size={16} className="mt-0.5 flex-shrink-0" />
                 <span>mobilityvehicledesigniitb@gmail.com</span>
               </div>
-              <div className="flex items-start gap-2 text-sm text-gray-300">
-                <Phone size={16} className="mt-0.5 flex-shrink-0" />
-                <span>+91 98648 01504</span>
-              </div>
+
               <div className="flex items-start gap-2 text-sm text-gray-300">
                 <MapPin size={16} className="mt-0.5 flex-shrink-0" />
                 <span>DeF Lab, IIT Bombay, Powai, Mumbai</span>
