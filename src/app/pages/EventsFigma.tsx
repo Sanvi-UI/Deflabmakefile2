@@ -3,7 +3,7 @@ import imgImg from "../../imports/Events/d3aed7537a93b27db628187b474a489f77626ed
 import imgImg1 from "../../imports/Events/animela_event.webp";
 import imgImg2 from "../../imports/Events/autodesk_visit.webp";
 import imgImg3 from "../../imports/Events/95b11a16d2bfdbf37864363434e1b464dddec7b3.webp";
-import imgImg4 from "../../imports/Events/43e8718aad9608335b023f2682017f78c01bc3f6.webp";
+import imgImg4 from "../../imports/Events/drdo_event.webp";
 import imgImg5 from "../../imports/Events/d0f1c5100abcea3662aa308b703dc16f4f10c286.webp";
 import imgImg6 from "../../imports/Events/02cf1d82969abaaafc2ec0f566091188ada0e382.webp";
 import imgImg7 from "../../imports/Events/1beaac6010fb1a0baf239fe8525c592b2cde9a33.webp";
