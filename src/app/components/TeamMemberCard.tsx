@@ -1,4 +1,5 @@
 import { User } from "lucide-react";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 export interface TeamMember {
   name: string;
@@ -17,11 +18,18 @@ export interface TeamMember {
 interface TeamMemberCardProps {
   member: TeamMember;
   onClick: () => void;
+  index?: number;
 }
 
-export function TeamMemberCard({ member, onClick }: TeamMemberCardProps) {
+export function TeamMemberCard({ member, onClick, index = 0 }: TeamMemberCardProps) {
+  const { ref, isVisible } = useScrollAnimation();
   return (
     <div
+      ref={ref}
+      style={{
+        animation: isVisible ? `cardPopUp 0.6s ease-out ${index * 0.08}s both` : 'none',
+        opacity: isVisible ? 1 : 0,
+      }}
       onClick={onClick}
       className="group relative bg-white rounded-lg overflow-hidden shadow-md cursor-pointer transition-all duration-300 ease-out hover:-translate-y-2 hover:scale-[1.03] hover:shadow-2xl"
     >

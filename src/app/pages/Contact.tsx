@@ -1,6 +1,7 @@
 import { Mail, Phone, MapPin, Send, Handshake, GraduationCap, ExternalLink, Info, MessageSquare } from "lucide-react";
 import { useState } from "react";
 import { PageHeader } from "../components/PageHeader";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -9,6 +10,12 @@ export function Contact() {
     subject: "",
     message: "",
   });
+  const anim1 = useScrollAnimation();
+  const anim2 = useScrollAnimation();
+  const anim3 = useScrollAnimation();
+  const anim4 = useScrollAnimation();
+  const anim5 = useScrollAnimation();
+  const anim6 = useScrollAnimation();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,7 +47,7 @@ export function Contact() {
             {/* Info Cards */}
             <div className="space-y-4">
               {/* Email */}
-              <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 transition-all">
+              <div ref={anim1.ref} style={{ animation: anim1.isVisible ? 'cardPopUp 0.6s ease-out 0s both' : 'none', opacity: anim1.isVisible ? 1 : 0 }} className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#FF6600]/10 rounded-lg">
                     <Mail className="w-6 h-6 text-[#FF6600]" />
@@ -58,7 +65,7 @@ export function Contact() {
               </div>
 
               {/* Phone */}
-              <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 transition-all">
+              <div ref={anim2.ref} style={{ animation: anim2.isVisible ? 'cardPopUp 0.6s ease-out 0.1s both' : 'none', opacity: anim2.isVisible ? 1 : 0 }} className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#FF6600]/10 rounded-lg">
                     <Phone className="w-6 h-6 text-[#FF6600]" />
@@ -76,7 +83,7 @@ export function Contact() {
               </div>
 
               {/* Address */}
-              <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 transition-all">
+              <div ref={anim3.ref} style={{ animation: anim3.isVisible ? 'cardPopUp 0.6s ease-out 0.2s both' : 'none', opacity: anim3.isVisible ? 1 : 0 }} className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-6 transition-all">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#FF6600]/10 rounded-lg">
                     <MapPin className="w-6 h-6 text-[#FF6600]" />

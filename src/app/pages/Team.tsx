@@ -286,10 +286,11 @@ export function Team() {
               </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                {category.members.map((member) => (
+                {category.members.map((member, idx) => (
                   <TeamMemberCard
                     key={member.name}
                     member={member}
+                    index={idx}
                     onClick={() => setSelected(member)}
                   />
                 ))}
