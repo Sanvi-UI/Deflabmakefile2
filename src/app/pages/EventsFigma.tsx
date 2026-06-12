@@ -86,7 +86,7 @@ function Span1() {
 
 function Container8() {
   return (
-    <div className="absolute h-[24px] left-[32px] top-[32px] w-[626px]" data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
       <Span />
       <Span1 />
     </div>
@@ -251,7 +251,7 @@ function Span5() {
 
 function Container16() {
   return (
-    <div className="absolute h-[24px] left-[32px] top-[32px] w-[626px]" data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
       <Span4 />
       <Span5 />
     </div>
@@ -416,7 +416,7 @@ function Span9() {
 
 function Container24() {
   return (
-    <div className="absolute h-[24px] left-[32px] top-[32px] w-[626px]" data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
       <Span8 />
       <Span9 />
     </div>
@@ -581,7 +581,7 @@ function Span13() {
 
 function Container32() {
   return (
-    <div className="absolute h-[24px] left-[32px] top-[32px] w-[626px]" data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
       <Span12 />
       <Span13 />
     </div>
@@ -746,7 +746,7 @@ function Span17() {
 
 function Container40() {
   return (
-    <div className="absolute h-[24px] left-[32px] top-[32px] w-[626px]" data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
       <Span16 />
       <Span17 />
     </div>
@@ -895,8 +895,8 @@ function Container46() {
 
 function Span20() {
   return (
-    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[95.289px]" style={{background:'#fff7ed'}} data-name="span">
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#c2410c'}}>Collaboration</p>
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[95.289px]" style={{background:'#fef3c7'}} data-name="span">
+      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#b45309'}}>Collaboration</p>
     </div>
   );
 }
@@ -911,7 +911,7 @@ function Span21() {
 
 function Container48() {
   return (
-    <div className="absolute h-[24px] left-[32px] top-[32px] w-[626px]" data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
       <Span20 />
       <Span21 />
     </div>
@@ -1076,7 +1076,7 @@ function Span25() {
 
 function Container56() {
   return (
-    <div className="absolute h-[24px] left-[32px] top-[32px] w-[626px]" data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
       <Span24 />
       <Span25 />
     </div>
@@ -1241,7 +1241,7 @@ function Span29() {
 
 function Container64() {
   return (
-    <div className="absolute h-[24px] left-[32px] top-[32px] w-[626px]" data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
       <Span28 />
       <Span29 />
     </div>
