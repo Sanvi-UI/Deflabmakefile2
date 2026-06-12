@@ -85,9 +85,9 @@ export function Contact() {
                     <h3 className="text-lg text-[#003153] mb-2">Location</h3>
                     <p className="text-sm text-[#666666]">
                       DeF Lab - Design for Future Lab<br />
-                      Innovation Centre, IDC School of Design<br />
-                      Ground Floor, Lab No. G 006, IIT Bombay<br />
-                      Powai, Mumbai, Maharashtra 400076
+                      Ground Floor, Rahul Bajaj Technology Innovation Centre<br />
+                      IDC School of Design, Lab No.- G 006<br />
+                      IIT, Powai, Mumbai, Maharashtra 400076
                     </p>
                   </div>
                 </div>
@@ -226,7 +226,7 @@ export function Contact() {
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          <p className="text-center text-sm text-[#666666] mt-4">Innovation Centre, IDC School of Design, Ground Floor, Lab No. G 006, IIT Bombay, Powai, Mumbai 400076</p>
+          <p className="text-center text-sm text-[#666666] mt-4">Ground Floor, Rahul Bajaj Technology Innovation Centre, IDC School of Design, Lab No.- G 006, IIT, Powai, Mumbai, Maharashtra 400076</p>
         </div>
 
         {/* Work with Us + Internship */}
