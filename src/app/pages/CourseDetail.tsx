@@ -253,7 +253,7 @@ export function CourseDetail() {
 
         <div className="absolute inset-0 flex items-end pointer-events-none">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
-            <h1 className="text-4xl md:text-5xl mb-4 bg-gradient-to-r from-[#FF6600] via-[#FF8533] to-[#FFB347] bg-clip-text text-transparent cursor-default inline-block leading-[1.2] pb-2">
+            <h1 className="text-4xl md:text-5xl mb-4 text-[#FF6600] cursor-default inline-block leading-[1.2] pb-2">
               {course.title}
             </h1>
             <p className="text-white/90 max-w-2xl leading-relaxed">{course.tagline}</p>
