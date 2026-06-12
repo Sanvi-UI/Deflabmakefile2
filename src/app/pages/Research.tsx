@@ -15,6 +15,7 @@ import impossibleCover from "@/imports/image-97.png";
 import ryoCover from "../../imports/image-110.png";
 import snehaCover from "../../imports/image-105.png";
 import polkadotCover from "../../imports/polkadot_research.webp";
+import creativeMisuseCover from "../../imports/creative_misuse.webp";
 
 function ResearchCard({ project, index }: { project: any; index: number }) {
   const { ref, isVisible } = useScrollAnimation();
@@ -97,7 +98,7 @@ export function Research() {
       category: "Interaction Design",
       duration: "6 months",
       description: "Investigating how the intentional misuse of technology can become a catalyst for creative expression, using black-box systems like iPhone text-recognition and smile-detection algorithms as artistic tools.",
-      image: creativeBannerResearch,
+      image: creativeMisuseCover,
     },
     {
       id: "impossible-worlds-vr",

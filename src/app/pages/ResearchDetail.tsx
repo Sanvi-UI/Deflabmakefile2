@@ -46,6 +46,7 @@ import snehaImg4 from "@/imports/image-101.png";
 import snehaImg5 from "@/imports/image-102.png";
 import snehaImg6 from "@/imports/image-103.png";
 import polkadotBanner from "../../imports/polkadot_research.webp";
+import creativeMisuseBanner from "../../imports/creative_misuse.webp";
 
 export function ResearchDetail() {
   const { id } = useParams();
@@ -158,8 +159,8 @@ export function ResearchDetail() {
       category: "Interaction Design",
       description: "This project investigates how the intentional misuse of technology can become a catalyst for creative expression and artistic innovation. Inspired by historical examples such as turntable scratching, circuit bending, and other unconventional technological practices, the research explores how digital systems can be repurposed beyond their intended functions to reveal unexpected behaviors and generate novel forms of interaction. The study specifically focuses on black-box technologies such as iPhone text-recognition systems and camera smile-detection algorithms, examining how their limitations, biases, and recognition patterns can be transformed into creative tools. Through a series of experimental interventions, the researcher analyzed how these systems respond to manipulated visual inputs, abstract imagery, and deliberately misleading designs.\n\nTo support this investigation, a custom iPhone Text Recognition (I2T) Simulator was developed using Swift and Xcode, enabling large-scale testing of image-recognition behavior. Thousands of generated images, abstract facial representations, Bezier-curve drawings, and visual compositions were processed to provoke algorithmic misrecognition. The findings revealed that machine-vision systems often identify patterns and meanings where humans perceive none, exposing hidden biases embedded within recognition algorithms. By leveraging these unexpected outcomes, the project demonstrates how technological misuse can serve as a medium for artistic exploration, encouraging new ways of understanding the relationship between human perception, machine intelligence, and creative design. Ultimately, the work highlights how errors, glitches, and misrecognitions can become valuable resources for innovation and experimental visual expression.",
       bannerImage: "",
-      localBannerImage: creativeBanner,
-      galleryImages: [creativeImg1, creativeImg3, creativeImg2, creativeImg4],
+      localBannerImage: creativeMisuseBanner,
+      galleryImages: [creativeMisuseBanner, creativeImg1, creativeImg3, creativeImg2, creativeImg4],
     },
     {
       id: "impossible-worlds-vr",
