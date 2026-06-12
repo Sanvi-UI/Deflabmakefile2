@@ -270,7 +270,7 @@ export function Contact() {
               </p>
             </div>
             <a
-              href="https://www.iitb.ac.in/en/education/internship-programmes"
+              href="https://rnd.iitb.ac.in/internship_ircc"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto self-start inline-flex items-center gap-2 px-4 py-2.5 bg-[#FF6600] text-white rounded-lg hover:bg-[#FF6600]/80 transition-colors text-sm whitespace-nowrap"
