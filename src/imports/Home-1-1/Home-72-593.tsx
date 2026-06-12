@@ -893,7 +893,7 @@ function Container36() {
 function Section3() {
   const { ref, visible } = useScrollAnim();
   return (
-    <div ref={ref} className="relative h-auto left-0 w-full min-h-[520px]" data-name="Section">
+    <div ref={ref} className="relative h-auto left-0 w-full min-h-[420px]" data-name="Section">
       <div style={popStyle(visible, '0s')}><Container34 /></div>
       <div style={popStyle(visible, '0.2s')}><Container36 /></div>
     </div>
@@ -926,7 +926,7 @@ function P15() {
 
 function Container43() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[16px] h-[124px] items-start left-[32px] top-[32px] w-[1037px]" data-name="Container">
+    <div className="absolute content-stretch flex flex-col gap-[16px] h-[124px] items-start left-[32px] top-[8px] w-[1037px]" data-name="Container">
       <Container44 />
       <H8 />
       <P15 />
@@ -1297,7 +1297,7 @@ function MainContent() {
           <Section2 />
         </div>
         
-        <div className="w-full flex flex-col items-center gap-[48px] py-[20px] bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)]">
+        <div className="w-full flex flex-col items-center gap-[24px] py-[16px] bg-[#f9fafb] [box-shadow:0_0_0_100vmax_#f9fafb] [clip-path:inset(0_-100vmax)]">
           <Section1 />
           <Section3 />
         </div>
