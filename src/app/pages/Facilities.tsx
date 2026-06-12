@@ -103,13 +103,37 @@ export function Facilities() {
     },
     {
       icon: <Scan className="w-8 h-8 text-[#FF6600]" />,
-      title: "Sensors",
+      title: "3D Scanning",
       products: [
         {
-          name: "Interactive Sensor Suite",
-          description: "A comprehensive collection of advanced sensors including professional 3D scanning, Kinect Azure depth sensing, precision hand tracking, and research-grade eye tracking for immersive creative coding and environmental capture.",
-          specs: ["3D Scanning & Mesh Generation", "AI Body & Depth Tracking", "Sub-millimeter Hand Tracking", "High-precision Eye Tracking"],
+          name: "3D Scanner",
+          description: "Professional 3D scanning system for capturing high-fidelity digital replicas of physical objects and environments.",
+          specs: ["High Resolution Capture", "Point Cloud Processing", "Mesh Generation", "Texture Mapping"],
           image: "https://images.unsplash.com/photo-1612886649688-ef2912f17921?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHwzRCUyMHNjYW5uaW5nJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzI5MTA4MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        },
+      ],
+    },
+    {
+      icon: <Code className="w-8 h-8 text-[#FF6600]" />,
+      title: "Creative Coding",
+      products: [
+        {
+          name: "Kinect Azure",
+          description: "Advanced depth sensing camera with AI-powered body tracking for interactive installations and creative coding.",
+          specs: ["Depth Camera", "Body Tracking", "Multiple Person Detection", "SDK Support"],
+          image: "https://images.unsplash.com/photo-1759092912891-9f52486bb059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1bml2ZXJzaXR5JTIwbGFib3JhdG9yeXxlbnwxfHx8fDE3NzI5NTYxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        },
+        {
+          name: "Hand Tracker",
+          description: "Precision hand and finger tracking system for gesture-based interactions and natural user interfaces.",
+          specs: ["Real-time Tracking", "Gesture Recognition", "Sub-millimeter Accuracy", "Low Latency"],
+          image: "https://images.unsplash.com/photo-1759092912891-9f52486bb059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1bml2ZXJzaXR5JTIwbGFib3JhdG9yeXxlbnwxfHx8fDE3NzI5NTYxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        },
+        {
+          name: "Eye Tracker",
+          description: "High-precision eye tracking technology for gaze-based research, UX studies, and attention analysis.",
+          specs: ["Gaze Point Tracking", "Pupil Dilation", "Head Movement", "Research Grade Accuracy"],
+          image: "https://images.unsplash.com/photo-1759092912891-9f52486bb059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1bml2ZXJzaXR5JTIwbGFib3JhdG9yeXxlbnwxfHx8fDE3NzI5NTYxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
         },
       ],
     },
