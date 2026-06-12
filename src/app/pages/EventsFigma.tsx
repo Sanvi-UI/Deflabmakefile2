@@ -86,7 +86,7 @@ function Span1() {
 
 function Container8() {
   return (
-    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'166px',left:'32px',width:'220px'}} data-name="Container">
       <Span />
       <Span1 />
     </div>
@@ -95,7 +95,7 @@ function Container8() {
 
 function H1() {
   return (
-    <div className="absolute h-[32px] left-[32px] top-[72px] w-[626px]" data-name="h3">
+    <div className="absolute h-[32px] left-[32px] top-[32px] w-[626px]" data-name="h3">
       <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[32px] left-0 not-italic text-[#003153] text-[24px] top-0 tracking-[0.0703px] whitespace-nowrap">India HCI 2025 Exhibition</p>
     </div>
   );
@@ -103,7 +103,7 @@ function H1() {
 
 function P1() {
   return (
-    <div className="absolute h-[56px] left-[32px] top-[116px] w-[626px]" data-name="p">
+    <div className="absolute h-[56px] left-[32px] top-[72px] w-[626px]" data-name="p">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-0 not-italic text-[#666] text-[16px] top-[-0.5px] tracking-[-0.3125px] w-[583px]">{`Showcasing our latest VR research and interactive installations at India's premier Human-Computer Interaction conference.`}</p>
     </div>
   );
@@ -177,7 +177,7 @@ function Container11() {
 
 function Container9() {
   return (
-    <div className="absolute h-[20px] left-[32px] top-[188px] w-[626px]" data-name="Container">
+    <div className="absolute h-[20px] left-[32px] top-[136px] w-[626px]" data-name="Container">
       <Container10 />
       <Container11 />
     </div>
@@ -251,7 +251,7 @@ function Span5() {
 
 function Container16() {
   return (
-    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'166px',left:'32px',width:'220px'}} data-name="Container">
       <Span4 />
       <Span5 />
     </div>
@@ -260,7 +260,7 @@ function Container16() {
 
 function H2() {
   return (
-    <div className="absolute h-[32px] left-[32px] top-[72px] w-[626px]" data-name="h3">
+    <div className="absolute h-[32px] left-[32px] top-[32px] w-[626px]" data-name="h3">
       <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[32px] left-0 not-italic text-[#003153] text-[24px] top-0 tracking-[0.0703px] whitespace-nowrap">Animela 2025</p>
     </div>
   );
@@ -268,7 +268,7 @@ function H2() {
 
 function P2() {
   return (
-    <div className="absolute h-[56px] left-[32px] top-[116px] w-[626px]" data-name="p">
+    <div className="absolute h-[56px] left-[32px] top-[72px] w-[626px]" data-name="p">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-0 not-italic text-[#666] text-[16px] top-[-0.5px] tracking-[-0.3125px] w-[585px]">{`Participating in India's largest animation and immersive media festival with VR art installations and demonstrations.`}</p>
     </div>
   );
@@ -342,7 +342,7 @@ function Container19() {
 
 function Container17() {
   return (
-    <div className="absolute h-[20px] left-[32px] top-[188px] w-[626px]" data-name="Container">
+    <div className="absolute h-[20px] left-[32px] top-[136px] w-[626px]" data-name="Container">
       <Container18 />
       <Container19 />
     </div>
@@ -416,7 +416,7 @@ function Span9() {
 
 function Container24() {
   return (
-    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'166px',left:'32px',width:'220px'}} data-name="Container">
       <Span8 />
       <Span9 />
     </div>
@@ -425,7 +425,7 @@ function Container24() {
 
 function H3() {
   return (
-    <div className="absolute h-[32px] left-[32px] top-[72px] w-[626px]" data-name="h3">
+    <div className="absolute h-[32px] left-[32px] top-[32px] w-[626px]" data-name="h3">
       <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[32px] left-0 not-italic text-[#003153] text-[24px] top-0 tracking-[0.0703px] whitespace-nowrap">Autodesk India Visit</p>
     </div>
   );
@@ -433,7 +433,7 @@ function H3() {
 
 function P3() {
   return (
-    <div className="absolute h-[56px] left-[32px] top-[116px] w-[626px]" data-name="p">
+    <div className="absolute h-[56px] left-[32px] top-[72px] w-[626px]" data-name="p">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-0 not-italic text-[#666] text-[16px] top-[-0.5px] tracking-[-0.3125px] w-[596px]">Hosted Autodesk team for collaboration discussions on future design tools and VR integration in automotive design workflows.</p>
     </div>
   );
@@ -507,7 +507,7 @@ function Container27() {
 
 function Container25() {
   return (
-    <div className="absolute h-[20px] left-[32px] top-[188px] w-[626px]" data-name="Container">
+    <div className="absolute h-[20px] left-[32px] top-[136px] w-[626px]" data-name="Container">
       <Container26 />
       <Container27 />
     </div>
@@ -581,7 +581,7 @@ function Span13() {
 
 function Container32() {
   return (
-    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'166px',left:'32px',width:'220px'}} data-name="Container">
       <Span12 />
       <Span13 />
     </div>
@@ -590,7 +590,7 @@ function Container32() {
 
 function H4() {
   return (
-    <div className="absolute h-[32px] left-[32px] top-[72px] w-[626px]" data-name="h3">
+    <div className="absolute h-[32px] left-[32px] top-[32px] w-[626px]" data-name="h3">
       <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[32px] left-0 not-italic text-[#003153] text-[24px] top-0 tracking-[0.0703px] whitespace-nowrap">Sony Research Collaboration</p>
     </div>
   );
@@ -598,7 +598,7 @@ function H4() {
 
 function P4() {
   return (
-    <div className="absolute h-[56px] left-[32px] top-[116px] w-[626px]" data-name="p">
+    <div className="absolute h-[56px] left-[32px] top-[72px] w-[626px]" data-name="p">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-0 not-italic text-[#666] text-[16px] top-[-0.5px] tracking-[-0.3125px] w-[615px]">Meeting with Sony Research team to explore collaborative opportunities in immersive entertainment and VR experiences.</p>
     </div>
   );
@@ -672,7 +672,7 @@ function Container35() {
 
 function Container33() {
   return (
-    <div className="absolute h-[20px] left-[32px] top-[188px] w-[626px]" data-name="Container">
+    <div className="absolute h-[20px] left-[32px] top-[136px] w-[626px]" data-name="Container">
       <Container34 />
       <Container35 />
     </div>
@@ -746,7 +746,7 @@ function Span17() {
 
 function Container40() {
   return (
-    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'166px',left:'32px',width:'220px'}} data-name="Container">
       <Span16 />
       <Span17 />
     </div>
@@ -755,7 +755,7 @@ function Container40() {
 
 function H5() {
   return (
-    <div className="absolute h-[32px] left-[32px] top-[72px] w-[626px]" data-name="h3">
+    <div className="absolute h-[32px] left-[32px] top-[32px] w-[626px]" data-name="h3">
       <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[32px] left-0 not-italic text-[#003153] text-[24px] top-0 tracking-[0.0703px] whitespace-nowrap">DRDO Technical Exchange</p>
     </div>
   );
@@ -763,7 +763,7 @@ function H5() {
 
 function P5() {
   return (
-    <div className="absolute h-[56px] left-[32px] top-[116px] w-[626px]" data-name="p">
+    <div className="absolute h-[56px] left-[32px] top-[72px] w-[626px]" data-name="p">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-0 not-italic text-[#666] text-[16px] top-[-0.5px] tracking-[-0.3125px] w-[624px]">Technical exchange session with Defence Research and Development Organisation focusing on simulation and training applications.</p>
     </div>
   );
@@ -837,7 +837,7 @@ function Container43() {
 
 function Container41() {
   return (
-    <div className="absolute h-[20px] left-[32px] top-[188px] w-[626px]" data-name="Container">
+    <div className="absolute h-[20px] left-[32px] top-[136px] w-[626px]" data-name="Container">
       <Container42 />
       <Container43 />
     </div>
@@ -911,7 +911,7 @@ function Span21() {
 
 function Container48() {
   return (
-    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'166px',left:'32px',width:'220px'}} data-name="Container">
       <Span20 />
       <Span21 />
     </div>
@@ -920,7 +920,7 @@ function Container48() {
 
 function H6() {
   return (
-    <div className="absolute h-[32px] left-[32px] top-[72px] w-[626px]" data-name="h3">
+    <div className="absolute h-[32px] left-[32px] top-[32px] w-[626px]" data-name="h3">
       <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[32px] left-0 not-italic text-[#003153] text-[24px] top-0 tracking-[0.0703px] whitespace-nowrap">TU Delft Design Exchange</p>
     </div>
   );
@@ -928,7 +928,7 @@ function H6() {
 
 function P6() {
   return (
-    <div className="absolute h-[56px] left-[32px] top-[116px] w-[626px]" data-name="p">
+    <div className="absolute h-[56px] left-[32px] top-[72px] w-[626px]" data-name="p">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-0 not-italic text-[#666] text-[16px] top-[-0.5px] tracking-[-0.3125px] w-[589px]">Joint research workshop with TU Delft faculty and students exploring future mobility design and sustainable transportation.</p>
     </div>
   );
@@ -1002,7 +1002,7 @@ function Container51() {
 
 function Container49() {
   return (
-    <div className="absolute h-[20px] left-[32px] top-[188px] w-[626px]" data-name="Container">
+    <div className="absolute h-[20px] left-[32px] top-[136px] w-[626px]" data-name="Container">
       <Container50 />
       <Container51 />
     </div>
@@ -1076,7 +1076,7 @@ function Span25() {
 
 function Container56() {
   return (
-    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'166px',left:'32px',width:'220px'}} data-name="Container">
       <Span24 />
       <Span25 />
     </div>
@@ -1085,7 +1085,7 @@ function Container56() {
 
 function H7() {
   return (
-    <div className="absolute h-[32px] left-[32px] top-[72px] w-[626px]" data-name="h3">
+    <div className="absolute h-[32px] left-[32px] top-[32px] w-[626px]" data-name="h3">
       <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[32px] left-0 not-italic text-[#003153] text-[24px] top-0 tracking-[0.0703px] whitespace-nowrap">DeF Lab Annual Showcase</p>
     </div>
   );
@@ -1093,7 +1093,7 @@ function H7() {
 
 function P7() {
   return (
-    <div className="absolute h-[56px] left-[32px] top-[116px] w-[626px]" data-name="p">
+    <div className="absolute h-[56px] left-[32px] top-[72px] w-[626px]" data-name="p">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-0 not-italic text-[#666] text-[16px] top-[-0.5px] tracking-[-0.3125px] w-[586px]">Annual exhibition showcasing student projects, research outcomes, and innovative prototypes from the past academic year.</p>
     </div>
   );
@@ -1167,7 +1167,7 @@ function Container59() {
 
 function Container57() {
   return (
-    <div className="absolute h-[20px] left-[32px] top-[188px] w-[626px]" data-name="Container">
+    <div className="absolute h-[20px] left-[32px] top-[136px] w-[626px]" data-name="Container">
       <Container58 />
       <Container59 />
     </div>
@@ -1241,7 +1241,7 @@ function Span29() {
 
 function Container64() {
   return (
-    <div className="absolute h-[24px]" style={{top:'auto',bottom:'16px',left:'auto',right:'32px',width:'220px'}} data-name="Container">
+    <div className="absolute h-[24px]" style={{top:'166px',left:'32px',width:'220px'}} data-name="Container">
       <Span28 />
       <Span29 />
     </div>
@@ -1250,7 +1250,7 @@ function Container64() {
 
 function H8() {
   return (
-    <div className="absolute h-[32px] left-[32px] top-[72px] w-[626px]" data-name="h3">
+    <div className="absolute h-[32px] left-[32px] top-[32px] w-[626px]" data-name="h3">
       <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[32px] left-0 not-italic text-[#003153] text-[24px] top-0 tracking-[0.0703px] whitespace-nowrap">Future Mobility Summit 2026</p>
     </div>
   );
@@ -1258,7 +1258,7 @@ function H8() {
 
 function P8() {
   return (
-    <div className="absolute h-[56px] left-[32px] top-[116px] w-[626px]" data-name="p">
+    <div className="absolute h-[56px] left-[32px] top-[72px] w-[626px]" data-name="p">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-0 not-italic text-[#666] text-[16px] top-[-0.5px] tracking-[-0.3125px] w-[624px]">{`Presenting keynote on 'Designing Human-Centered Autonomous Vehicle Experiences' at India's premier mobility conference.`}</p>
     </div>
   );
@@ -1332,7 +1332,7 @@ function Container67() {
 
 function Container65() {
   return (
-    <div className="absolute h-[20px] left-[32px] top-[188px] w-[626px]" data-name="Container">
+    <div className="absolute h-[20px] left-[32px] top-[136px] w-[626px]" data-name="Container">
       <Container66 />
       <Container67 />
     </div>
@@ -1394,7 +1394,7 @@ export function EventsFigma() {
   // Filter events based on selected filter
   const getFilteredEvents = () => {
     if (selectedFilter === "All Events") {
-      return [...eventCategories.past, ...eventCategories.upcoming];
+      return [...eventCategories.upcoming, ...eventCategories.past];
     } else if (selectedFilter === "Upcoming") {
       return eventCategories.upcoming;
     } else {
