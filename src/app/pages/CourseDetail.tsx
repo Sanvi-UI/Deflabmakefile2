@@ -367,8 +367,8 @@ export function CourseDetail() {
                       {reel.map((img, i) => (
                         <div
                           key={i}
-                          className="flex-shrink-0 rounded-2xl overflow-hidden bg-gray-100"
-                          style={{ width: 420, aspectRatio: "16 / 9" }}
+                          className="flex-shrink-0 rounded-xl overflow-hidden bg-gray-100 shadow-md"
+                          style={{ width: 560, height: 380 }}
                         >
                           <img
                             src={img}
@@ -613,8 +613,8 @@ export function CourseDetail() {
                   {reel.map((img, i) => (
                     <div
                       key={i}
-                      className="flex-shrink-0 rounded-2xl overflow-hidden bg-gray-100"
-                      style={{ width: 420, aspectRatio: "16 / 9" }}
+                      className="flex-shrink-0 rounded-xl overflow-hidden bg-gray-100 shadow-md"
+                      style={{ width: 560, height: 380 }}
                     >
                       <img
                         src={img}
