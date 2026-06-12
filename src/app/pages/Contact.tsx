@@ -126,7 +126,7 @@ export function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-8">
+          <div ref={anim4.ref} style={{ animation: anim4.isVisible ? 'cardPopUp 0.6s ease-out 0.1s both' : 'none', opacity: anim4.isVisible ? 1 : 0 }} className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 p-8">
             <div className="flex items-center gap-3 mb-6">
               <div className="p-3 bg-[#FF6600]/10 rounded-lg flex-shrink-0">
                 <MessageSquare className="w-6 h-6 text-[#FF6600]" />
@@ -239,7 +239,7 @@ export function Contact() {
         {/* Work with Us + Internship */}
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
           {/* Work with Us */}
-          <div className="flex flex-col h-full bg-gradient-to-br from-white to-gray-50 rounded-2xl border border-gray-200 p-8 transition-all">
+          <div ref={anim5.ref} style={{ animation: anim5.isVisible ? 'cardPopUp 0.6s ease-out 0s both' : 'none', opacity: anim5.isVisible ? 1 : 0 }} className="flex flex-col h-full bg-gradient-to-br from-white to-gray-50 rounded-2xl border border-gray-200 p-8 transition-all">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-12 h-12 flex items-center justify-center bg-[#FF6600]/10 rounded-lg flex-shrink-0">
                 <Handshake className="w-6 h-6 text-[#FF6600]" />
@@ -260,7 +260,7 @@ export function Contact() {
           </div>
 
           {/* Internship */}
-          <div className="flex flex-col h-full bg-gradient-to-br from-[#003153] to-[#003153]/90 rounded-2xl p-8 transition-all">
+          <div ref={anim6.ref} style={{ animation: anim6.isVisible ? 'cardPopUp 0.6s ease-out 0.15s both' : 'none', opacity: anim6.isVisible ? 1 : 0 }} className="flex flex-col h-full bg-gradient-to-br from-[#003153] to-[#003153]/90 rounded-2xl p-8 transition-all">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-12 h-12 flex items-center justify-center bg-[#FF6600] rounded-lg flex-shrink-0">
                 <GraduationCap className="w-6 h-6 text-white" />
