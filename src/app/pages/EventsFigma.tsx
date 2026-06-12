@@ -70,7 +70,7 @@ function Container6() {
 
 function Span() {
   return (
-    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[89.438px]" style={{background:'#f3e8ff'}} data-name="span">
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[89.438px]" style={{background:'#faf5ff'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#7e22ce'}}>Conference</p>
     </div>
   );
@@ -78,7 +78,7 @@ function Span() {
 
 function Span1() {
   return (
-    <div className="absolute h-[24px] left-[97.44px] rounded-[4px] top-0 w-[85.836px]" style={{background:'#fee2e2'}} data-name="span">
+    <div className="absolute h-[24px] left-[97.44px] rounded-[4px] top-0 w-[85.836px]" style={{background:'#fef2f2'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#dc2626'}}>Completed</p>
     </div>
   );
@@ -235,7 +235,7 @@ function Container14() {
 
 function Span4() {
   return (
-    <div className="absolute bg-[rgba(125,249,255,0.1)] h-[24px] left-0 rounded-[4px] top-0 w-[79.219px]" data-name="span">
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[79.219px]" style={{background:'#eff6ff'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#1d4ed8'}}>Exhibition</p>
     </div>
   );
@@ -243,7 +243,7 @@ function Span4() {
 
 function Span5() {
   return (
-    <div className="absolute bg-[#f3f4f6] h-[24px] left-[87.22px] rounded-[16777200px] top-0 w-[85.836px]" data-name="span">
+    <div className="absolute h-[24px] left-[87.22px] rounded-[4px] top-0 w-[85.836px]" style={{background:'#fef2f2'}} data-dummy="" data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#dc2626'}}>Completed</p>
     </div>
   );
@@ -400,7 +400,7 @@ function Container22() {
 
 function Span8() {
   return (
-    <div className="absolute bg-[rgba(0,49,83,0.1)] h-[24px] left-0 rounded-[4px] top-0 w-[98.344px]" data-name="span">
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[98.344px]" style={{background:'#f0fdfa'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#0f766e'}}>Industry Visit</p>
     </div>
   );
@@ -408,7 +408,7 @@ function Span8() {
 
 function Span9() {
   return (
-    <div className="absolute bg-[#f3f4f6] h-[24px] left-[106.34px] rounded-[16777200px] top-0 w-[85.836px]" data-name="span">
+    <div className="absolute h-[24px] left-[106.34px] rounded-[4px] top-0 w-[85.836px]" style={{background:'#fef2f2'}} data-dummy="" data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#dc2626'}}>Completed</p>
     </div>
   );
@@ -565,7 +565,7 @@ function Container30() {
 
 function Span12() {
   return (
-    <div className="absolute bg-[rgba(0,49,83,0.1)] h-[24px] left-0 rounded-[4px] top-0 w-[98.344px]" data-name="span">
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[98.344px]" style={{background:'#f0fdfa'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#0f766e'}}>Industry Visit</p>
     </div>
   );
@@ -573,7 +573,7 @@ function Span12() {
 
 function Span13() {
   return (
-    <div className="absolute bg-[#f3f4f6] h-[24px] left-[106.34px] rounded-[16777200px] top-0 w-[85.836px]" data-name="span">
+    <div className="absolute h-[24px] left-[106.34px] rounded-[4px] top-0 w-[85.836px]" style={{background:'#fef2f2'}} data-dummy="" data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#dc2626'}}>Completed</p>
     </div>
   );
@@ -730,7 +730,7 @@ function Container38() {
 
 function Span16() {
   return (
-    <div className="absolute bg-[rgba(0,49,83,0.1)] h-[24px] left-0 rounded-[4px] top-0 w-[98.344px]" data-name="span">
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[98.344px]" style={{background:'#f0fdfa'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#0f766e'}}>Industry Visit</p>
     </div>
   );
@@ -738,7 +738,7 @@ function Span16() {
 
 function Span17() {
   return (
-    <div className="absolute bg-[#f3f4f6] h-[24px] left-[106.34px] rounded-[16777200px] top-0 w-[85.836px]" data-name="span">
+    <div className="absolute h-[24px] left-[106.34px] rounded-[4px] top-0 w-[85.836px]" style={{background:'#fef2f2'}} data-dummy="" data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#dc2626'}}>Completed</p>
     </div>
   );
@@ -895,7 +895,7 @@ function Container46() {
 
 function Span20() {
   return (
-    <div className="absolute bg-[rgba(255,102,0,0.1)] h-[24px] left-0 rounded-[4px] top-0 w-[95.289px]" data-name="span">
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[95.289px]" style={{background:'#fff7ed'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#c2410c'}}>Collaboration</p>
     </div>
   );
@@ -903,7 +903,7 @@ function Span20() {
 
 function Span21() {
   return (
-    <div className="absolute bg-[rgba(125,249,255,0.1)] h-[24px] left-[103.29px] rounded-[16777200px] top-0 w-[80.773px]" data-name="span">
+    <div className="absolute h-[24px] left-[103.29px] rounded-[4px] top-0 w-[80.773px]" style={{background:'#f0fdf4'}} data-dummy="" data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#15803d'}}>Upcoming</p>
     </div>
   );
@@ -1060,7 +1060,7 @@ function Container54() {
 
 function Span24() {
   return (
-    <div className="absolute bg-[rgba(125,249,255,0.1)] h-[24px] left-0 rounded-[4px] top-0 w-[79.219px]" data-name="span">
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[79.219px]" style={{background:'#eff6ff'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#1d4ed8'}}>Exhibition</p>
     </div>
   );
@@ -1068,7 +1068,7 @@ function Span24() {
 
 function Span25() {
   return (
-    <div className="absolute bg-[rgba(125,249,255,0.1)] h-[24px] left-[87.22px] rounded-[16777200px] top-0 w-[80.773px]" data-name="span">
+    <div className="absolute h-[24px] left-[87.22px] rounded-[4px] top-0 w-[80.773px]" style={{background:'#f0fdf4'}} data-dummy="" data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#15803d'}}>Upcoming</p>
     </div>
   );
@@ -1225,7 +1225,7 @@ function Container62() {
 
 function Span28() {
   return (
-    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[89.438px]" style={{background:'#f3e8ff'}} data-name="span">
+    <div className="absolute h-[24px] left-0 rounded-[4px] top-0 w-[89.438px]" style={{background:'#faf5ff'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#7e22ce'}}>Conference</p>
     </div>
   );
@@ -1233,7 +1233,7 @@ function Span28() {
 
 function Span29() {
   return (
-    <div className="absolute h-[24px] left-[97.44px]" style={{background:'#dcfce7'}} data-fixme="5 rounded-[16777200px] top-0 w-[80.773px]" data-name="span">
+    <div className="absolute h-[24px] left-[97.44px] rounded-[4px] top-0 w-[80.773px]" style={{background:'#f0fdf4'}} data-name="span">
       <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[16px] left-[12px] not-italic text-[12px] top-[5px] whitespace-nowrap" style={{color:'#15803d'}}>Upcoming</p>
     </div>
   );
