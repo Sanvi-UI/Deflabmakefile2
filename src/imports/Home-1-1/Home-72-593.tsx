@@ -105,7 +105,7 @@ function Section() {
   return (
     <div ref={ref} className="relative bg-white content-stretch flex flex-col h-auto items-start left-0 px-[38.5px] w-full" data-name="section">
       <div style={popStyle(visible, '0s')} className="shrink-0 w-full"><Div1 /></div>
-      <div style={{width:'100%', height:'1px', background:'rgba(0,0,0,0.18)', marginTop:'48px'}} />
+      <div style={{width:'100%', height:'1px', background:'rgba(0,0,0,0.18)', marginTop:'80px'}} />
     </div>
   );
 }
@@ -1302,7 +1302,7 @@ function MainContent() {
           <Section3 />
         </div>
 
-        <div className="w-full flex flex-col items-center gap-[80px] pt-[20px] pb-[80px]">
+        <div className="w-full flex flex-col items-center gap-[80px] pt-[48px] pb-[80px]">
           <Section />
           <Section4 />
         </div>
