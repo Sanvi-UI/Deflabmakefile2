@@ -16,6 +16,7 @@ import ryoCover from "../../imports/image-110.png";
 import snehaCover from "../../imports/image-105.png";
 import polkadotCover from "../../imports/polkadot_research.webp";
 import creativeMisuseCover from "../../imports/creative_misuse.webp";
+import gradientTrackingCover from "../../imports/gradient_tracking.webp";
 
 function ResearchCard({ project, index }: { project: any; index: number }) {
   const { ref, isVisible } = useScrollAnimation();
@@ -183,7 +184,7 @@ export function Research() {
       category: "Interaction Design",
       duration: "2 months",
       description: "Novel interaction paradigms using gradient-based tracking for immersive VR interfaces and user experiences.",
-      image: "https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmFkaWVudCUyMHRyYWNraW5nJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3Mjk2NDc2NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: gradientTrackingCover,
     },
     {
       id: "polka-dot-interaction",
