@@ -48,6 +48,9 @@ import snehaImg6 from "@/imports/image-103.png";
 import polkadotBanner from "../../imports/polkadot_research.webp";
 import polkadotGallery from "../../imports/polkadot_gallery.webp";
 import creativeMisuseBanner from "../../imports/creative_misuse.webp";
+import gradientTrackingBanner from "../../imports/gradient_tracking.webp";
+import gradientTrackingImg2 from "../../imports/gradient_tracking_2.webp";
+import gradientTrackingImg3 from "../../imports/gradient_tracking_3.webp";
 
 export function ResearchDetail() {
   const { id } = useParams();
@@ -75,7 +78,9 @@ export function ResearchDetail() {
       duration: "2 months",
       category: "Interaction Design",
       description: "This innovative research investigates novel interaction paradigms using gradient-based tracking systems for immersive virtual reality interfaces. The project develops sophisticated algorithms that interpret subtle gradient variations in visual input to enable more natural and intuitive user interactions within VR environments. By analyzing color, depth, and spatial gradients in real-time, the system creates a responsive interface that adapts to user movements and gestures with unprecedented precision. The research demonstrates how gradient tracking can enhance user experience by reducing latency, improving gesture recognition accuracy, and enabling more fluid interactions between users and virtual objects. Applications range from artistic creation tools to industrial design interfaces, showcasing the versatility and potential of this approach in transforming how we interact with digital content in three-dimensional space.",
-      bannerImage: "https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmFkaWVudCUyMHRyYWNraW5nJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3Mjk2NDc2NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      bannerImage: "",
+      localBannerImage: gradientTrackingBanner,
+      galleryImages: [gradientTrackingBanner, gradientTrackingImg2, gradientTrackingImg3],
     },
     {
       id: "polka-dot-interaction",
