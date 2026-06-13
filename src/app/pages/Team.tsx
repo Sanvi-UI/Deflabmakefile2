@@ -116,7 +116,7 @@ const teamCategories: TeamCategory[] = [
         department: "Central Institute of Technology Kokrajhar",
         cardRole: "Staff",
         cardDepartment: "Technical Support",
-        bio: "Dhiru Boro completed his Bachelor of Design in Animation Design from the Central Institute of Technology Kokrajhar. His interests lie in animation, visual storytelling, storyboarding, and immersive media. Over the years, he has worked on projects involving character design, sequential storytelling, digital illustration, and VR-based creative experiences using tools such as Gravity Sketch, Open Brush, and Kingspray VR. He is particularly interested in exploring how emerging technologies can be used to create engaging stories and interactive experiences. He is also interested in cultural preservation through visual storytelling and exploring how design and technology can help document, communicate, and share stories with wider audiences. Through his work, he strives to create meaningful experiences while continuously learning and experimenting with new creative approaches.",
+        bio: "Dhiru Boro is from Kokrajhar, Assam. He creates visual stories through animation, concept art, illustration, and immersive media. He holds a B.Des in Animation Design from the Central Institute of Technology Kokrajhar and is passionate about exploring VR, storytelling, and cultural preservation through design and technology.",
         interests: ["Animation", "Visual Storytelling", "Storyboarding", "Immersive Media", "VR Art", "Cultural Preservation"],
         email: "dhiru@deflab.in",
         linkedin: "https://linkedin.com/in/dhiruboro",
