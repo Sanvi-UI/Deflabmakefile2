@@ -185,6 +185,7 @@ export function Research() {
       duration: "2 months",
       description: "Novel interaction paradigms using gradient-based tracking for immersive VR interfaces and user experiences.",
       image: gradientTrackingCover,
+      imagePosition: "center 70%",
     },
     {
       id: "polka-dot-interaction",
